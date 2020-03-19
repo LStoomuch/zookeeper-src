@@ -1,0 +1,415 @@
+2020-03-18 17:38:40,890 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-03-18 17:38:40,897 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-03-18 17:38:41,085 [myid:] - INFO  [main:MiniKdc@222] - Configuration:
+2020-03-18 17:38:41,085 [myid:] - INFO  [main:MiniKdc@223] - ---------------------------------------------------------------
+2020-03-18 17:38:41,087 [myid:] - INFO  [main:MiniKdc@225] -   debug: true
+2020-03-18 17:38:41,087 [myid:] - INFO  [main:MiniKdc@225] -   transport: TCP
+2020-03-18 17:38:41,087 [myid:] - INFO  [main:MiniKdc@225] -   max.ticket.lifetime: 86400000
+2020-03-18 17:38:41,088 [myid:] - INFO  [main:MiniKdc@225] -   org.name: EXAMPLE
+2020-03-18 17:38:41,088 [myid:] - INFO  [main:MiniKdc@225] -   kdc.port: 0
+2020-03-18 17:38:41,089 [myid:] - INFO  [main:MiniKdc@225] -   org.domain: COM
+2020-03-18 17:38:41,089 [myid:] - INFO  [main:MiniKdc@225] -   max.renewable.lifetime: 604800000
+2020-03-18 17:38:41,089 [myid:] - INFO  [main:MiniKdc@225] -   instance: DefaultKrbServer
+2020-03-18 17:38:41,090 [myid:] - INFO  [main:MiniKdc@225] -   kdc.bind.address: localhost
+2020-03-18 17:38:41,090 [myid:] - INFO  [main:MiniKdc@227] - ---------------------------------------------------------------
+2020-03-18 17:38:41,706 [myid:] - INFO  [main:MiniKdc@281] - MiniKdc stated.
+2020-03-18 17:38:41,710 [myid:] - INFO  [main:PortAssignment@154] - Test process 4/8 using ports from 19300 - 21992.
+2020-03-18 17:38:41,712 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 19301 from range 19300 - 21992.
+2020-03-18 17:38:41,714 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testAuth
+2020-03-18 17:38:41,953 [myid:] - INFO  [main:X509Util@77] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2020-03-18 17:38:41,954 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 19302 from range 19300 - 21992.
+2020-03-18 17:38:42,307 [myid:] - INFO  [main:NettyServerCnxnFactory@483] - zookeeper.client.portUnification=false
+2020-03-18 17:38:42,308 [myid:] - INFO  [main:NettyServerCnxnFactory@495] - zookeeper.netty.advancedFlowControl.enabled = false
+2020-03-18 17:38:42,308 [myid:] - INFO  [main:NettyServerCnxnFactory@105] - handshakeThrottlingEnabled = false, zookeeper.netty.server.outstandingHandshake.limit = -1
+2020-03-18 17:38:42,624 [myid:] - INFO  [main:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NettyServerCnxnFactory as server connection factory
+Debug is  true storeKey true useTicketCache false useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/ac048536-4810-48a8-9865-7792eddb1beb refreshKrb5Config is true principal is zkquorum/localhost@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+Java config name: /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test5652337606459965853.junit.dir/1584524321084/krb5.conf
+Loaded from Java config
+>>> KdcAccessibility: reset
+>>> KdcAccessibility: reset
+>>> KeyTabInputStream, readName(): EXAMPLE.COM
+>>> KeyTabInputStream, readName(): zkquorum
+>>> KeyTabInputStream, readName(): localhost
+>>> KeyTab: load() entry length: 73; type: 16
+>>> KeyTabInputStream, readName(): EXAMPLE.COM
+>>> KeyTabInputStream, readName(): zkquorum
+>>> KeyTabInputStream, readName(): localhost
+>>> KeyTab: load() entry length: 65; type: 17
+>>> KeyTabInputStream, readName(): EXAMPLE.COM
+>>> KeyTabInputStream, readName(): zkclient
+>>> KeyTabInputStream, readName(): localhost
+>>> KeyTab: load() entry length: 73; type: 16
+>>> KeyTabInputStream, readName(): EXAMPLE.COM
+>>> KeyTabInputStream, readName(): zkclient
+>>> KeyTabInputStream, readName(): localhost
+>>> KeyTab: load() entry length: 65; type: 17
+Looking for keys for: zkquorum/localhost@EXAMPLE.COM
+Added key: 17version: 1
+Added key: 16version: 1
+Looking for keys for: zkquorum/localhost@EXAMPLE.COM
+Added key: 17version: 1
+Added key: 16version: 1
+Using builtin default etypes for default_tkt_enctypes
+default etypes for default_tkt_enctypes: 18 17 16 23.
+>>> KrbAsReq creating message
+>>> KrbKdcReq send: kdc=localhost TCP:64663, timeout=30000, number of retries =3, #bytes=151
+>>> KDCCommunication: kdc=localhost TCP:64663, timeout=30000,Attempt =1, #bytes=151
+2020-03-18 17:38:43,541 [myid:] - INFO  [pool-1-thread-1:KdcRequest@690] - The preauth data is empty.
+2020-03-18 17:38:43,547 [myid:] - INFO  [pool-1-thread-1:KdcHandler@177] - KRB error occurred while processing request: Additional pre-authentication required
+>>>DEBUG: TCPClient reading 162 bytes
+>>> KrbKdcReq send: #bytes read=162
+>>>Pre-Authentication Data:
+	 PA-DATA type = 19
+	 PA-ETYPE-INFO2 etype = 17, salt = null, s2kparams = null
+
+>>> KdcAccessibility: remove localhost:64663
+>>> KDCRep: init() encoding tag is 126 req type is 11
+>>>KRBError:
+	 sTime is Wed Mar 18 17:38:43 CST 2020 1584524323000
+	 suSec is 100
+	 error code is 25
+	 error Message is Additional pre-authentication required
+	 sname is zkquorum/localhost@EXAMPLE.COM
+	 eData provided.
+	 msgType is 30
+>>>Pre-Authentication Data:
+	 PA-DATA type = 19
+	 PA-ETYPE-INFO2 etype = 17, salt = null, s2kparams = null
+
+KRBError received: Additional pre-authentication required
+KrbAsReqBuilder: PREAUTH FAILED/REQ, re-send AS-REQ
+Using builtin default etypes for default_tkt_enctypes
+default etypes for default_tkt_enctypes: 18 17 16 23.
+Looking for keys for: zkquorum/localhost@EXAMPLE.COM
+Added key: 17version: 1
+Added key: 16version: 1
+Looking for keys for: zkquorum/localhost@EXAMPLE.COM
+Added key: 17version: 1
+Added key: 16version: 1
+Using builtin default etypes for default_tkt_enctypes
+default etypes for default_tkt_enctypes: 18 17 16 23.
+>>> EType: sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType
+>>> KrbAsReq creating message
+>>> KrbKdcReq send: kdc=localhost TCP:64663, timeout=30000, number of retries =3, #bytes=238
+>>> KDCCommunication: kdc=localhost TCP:64663, timeout=30000,Attempt =1, #bytes=238
+2020-03-18 17:38:44,759 [myid:] - INFO  [pool-1-thread-1:AsRequest@112] - AS_REQ ISSUE: authtime 1584524324756,zkquorum/localhost@EXAMPLE.COM for krbtgt/EXAMPLE.COM@EXAMPLE.COM
+>>>DEBUG: TCPClient reading 543 bytes
+>>> KrbKdcReq send: #bytes read=543
+>>> KdcAccessibility: remove localhost:64663
+Looking for keys for: zkquorum/localhost@EXAMPLE.COM
+Added key: 17version: 1
+Added key: 16version: 1
+>>> EType: sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType
+>>> KrbAsRep cons in KrbAsReq.getReply zkquorum/localhost
+principal is zkquorum/localhost@EXAMPLE.COM
+Will use keytab
+Commit Succeeded 
+
+2020-03-18 17:38:44,779 [myid:] - INFO  [main:Login@320] - Server successfully logged in.
+2020-03-18 17:38:44,839 [myid:] - INFO  [Thread-1:Login$1@133] - TGT refresh thread started.
+2020-03-18 17:38:44,840 [myid:] - INFO  [Thread-1:Login@342] - TGT valid starting at:        Wed Mar 18 17:38:44 CST 2020
+2020-03-18 17:38:44,840 [myid:] - INFO  [Thread-1:Login@343] - TGT expires:                  Thu Mar 19 17:38:44 CST 2020
+2020-03-18 17:38:44,840 [myid:] - INFO  [Thread-1:Login$1@199] - TGT refresh sleeping until: Thu Mar 19 13:27:14 CST 2020
+2020-03-18 17:38:44,843 [myid:] - WARN  [main:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2020-03-18 17:38:44,876 [myid:] - INFO  [main:ClientBase@486] - Initial fdcount is: 118
+2020-03-18 17:38:45,396 [myid:] - INFO  [main:JMXEnv@58] - connecting to addr service:jmx:rmi://127.0.0.1/stub/rO0ABXNyAC5qYXZheC5tYW5hZ2VtZW50LnJlbW90ZS5ybWkuUk1JU2VydmVySW1wbF9TdHViAAAAAAAAAAICAAB4cgAaamF2YS5ybWkuc2VydmVyLlJlbW90ZVN0dWLp/tzJi+FlGgIAAHhyABxqYXZhLnJtaS5zZXJ2ZXIuUmVtb3RlT2JqZWN002G0kQxhMx4DAAB4cHc3AAtVbmljYXN0UmVmMgAADDE3Mi4xOC4xNC4zNAAA/OdZVBwHhilPVZejUH4AAAFw7QJxt4ABAHg=
+2020-03-18 17:38:45,601 [myid:] - INFO  [main:ClientBase@514] - STARTING server
+2020-03-18 17:38:45,601 [myid:] - INFO  [main:ClientBase@423] - CREATING server instance 127.0.0.1:19302
+2020-03-18 17:38:45,601 [myid:] - INFO  [main:ClientBase@395] - STARTING server instance 127.0.0.1:19302
+2020-03-18 17:38:45,617 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-03-18 17:38:45,617 [myid:] - INFO  [main:ZookeeperBanner@42] -   ______                  _                                          
+2020-03-18 17:38:45,617 [myid:] - INFO  [main:ZookeeperBanner@42] -  |___  /                 | |                                         
+2020-03-18 17:38:45,617 [myid:] - INFO  [main:ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+2020-03-18 17:38:45,617 [myid:] - INFO  [main:ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+2020-03-18 17:38:45,617 [myid:] - INFO  [main:ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+2020-03-18 17:38:45,618 [myid:] - INFO  [main:ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+2020-03-18 17:38:45,618 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               | |                     
+2020-03-18 17:38:45,618 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               |_|                     
+2020-03-18 17:38:45,618 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-03-18 17:38:45,626 [myid:] - INFO  [main:Environment@98] - Server environment:zookeeper.version=3.6.0--b4c89dc7f6083829e18fae6e446907ae0b1f22d7, built on 03/18/2020 09:36 GMT
+2020-03-18 17:38:45,626 [myid:] - INFO  [main:Environment@98] - Server environment:host.name=172.18.14.34
+2020-03-18 17:38:45,626 [myid:] - INFO  [main:Environment@98] - Server environment:java.version=1.8.0_191
+2020-03-18 17:38:45,627 [myid:] - INFO  [main:Environment@98] - Server environment:java.vendor=Oracle Corporation
+2020-03-18 17:38:45,627 [myid:] - INFO  [main:Environment@98] - Server environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre
+2020-03-18 17:38:45,627 [myid:] - INFO  [main:Environment@98] - Server environment:java.class.path=/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/test-classes:/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/classes:/Users/liaosheng/.m2/repository/com/github/spotbugs/spotbugs-annotations/3.1.9/spotbugs-annotations-3.1.9.jar:/Users/liaosheng/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/liaosheng/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/liaosheng/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/liaosheng/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-jute/target/zookeeper-jute-3.6.0.jar:/Users/liaosheng/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/liaosheng/.m2/repository/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar:/Users/liaosheng/.m2/repository/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-transport-native-epoll/4.1.45.Final/netty-transport-native-epoll-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.45.Final/netty-transport-native-unix-common-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/liaosheng/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-server/9.4.24.v20191120/jetty-server-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-http/9.4.24.v20191120/jetty-http-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-util/9.4.24.v20191120/jetty-util-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-io/9.4.24.v20191120/jetty-io-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.24.v20191120/jetty-servlet-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-security/9.4.24.v20191120/jetty-security-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.3/jackson-databind-2.9.10.3.jar:/Users/liaosheng/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/Users/liaosheng/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/Users/liaosheng/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/liaosheng/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar:/Users/liaosheng/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.jar:/Users/liaosheng/.m2/repository/jline/jline/2.11/jline-2.11.jar:/Users/liaosheng/.m2/repository/io/dropwizard/metrics/metrics-core/3.2.5/metrics-core-3.2.5.jar:/Users/liaosheng/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-core/2.0.0/kerb-core-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-pkix/2.0.0/kerby-pkix-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-asn1/2.0.0/kerby-asn1-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-util/2.0.0/kerby-util-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-simplekdc/2.0.0/kerb-simplekdc-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-client/2.0.0/kerb-client-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-common/2.0.0/kerb-common-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-crypto/2.0.0/kerb-crypto-2.0.0.jar:/Users/liaosheng/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-util/2.0.0/kerb-util-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/token-provider/2.0.0/token-provider-2.0.0.jar:/Users/liaosheng/.m2/repository/com/nimbusds/nimbus-jose-jwt/4.41.2/nimbus-jose-jwt-4.41.2.jar:/Users/liaosheng/.m2/repository/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar:/Users/liaosheng/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/liaosheng/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/liaosheng/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-admin/2.0.0/kerb-admin-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-server/2.0.0/kerb-server-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-identity/2.0.0/kerb-identity-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-xdr/2.0.0/kerby-xdr-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-config/2.0.0/kerby-config-2.0.0.jar:/Users/liaosheng/.m2/repository/org/mockito/mockito-core/2.27.0/mockito-core-2.27.0.jar:/Users/liaosheng/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/Users/liaosheng/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/Users/liaosheng/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/Users/liaosheng/.m2/repository/org/jmockit/jmockit/1.48/jmockit-1.48.jar:/Users/liaosheng/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/liaosheng/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/liaosheng/.m2/repository/org/xerial/snappy/snappy-java/1.1.7/snappy-java-1.1.7.jar:
+2020-03-18 17:38:45,627 [myid:] - INFO  [main:Environment@98] - Server environment:java.library.path=/Users/liaosheng/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2020-03-18 17:38:45,627 [myid:] - INFO  [main:Environment@98] - Server environment:java.io.tmpdir=/var/folders/c9/j1lmbpys2t38k93k9_tlj4100000gp/T/
+2020-03-18 17:38:45,627 [myid:] - INFO  [main:Environment@98] - Server environment:java.compiler=<NA>
+2020-03-18 17:38:45,628 [myid:] - INFO  [main:Environment@98] - Server environment:os.name=Mac OS X
+2020-03-18 17:38:45,628 [myid:] - INFO  [main:Environment@98] - Server environment:os.arch=x86_64
+2020-03-18 17:38:45,628 [myid:] - INFO  [main:Environment@98] - Server environment:os.version=10.14.5
+2020-03-18 17:38:45,628 [myid:] - INFO  [main:Environment@98] - Server environment:user.name=liaosheng
+2020-03-18 17:38:45,628 [myid:] - INFO  [main:Environment@98] - Server environment:user.home=/Users/liaosheng
+2020-03-18 17:38:45,629 [myid:] - INFO  [main:Environment@98] - Server environment:user.dir=/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server
+2020-03-18 17:38:45,629 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.free=109MB
+2020-03-18 17:38:45,630 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.max=455MB
+2020-03-18 17:38:45,632 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.total=123MB
+2020-03-18 17:38:45,633 [myid:] - INFO  [main:ZooKeeperServer@128] - zookeeper.enableEagerACLCheck = false
+2020-03-18 17:38:45,633 [myid:] - INFO  [main:ZooKeeperServer@136] - zookeeper.digest.enabled = true
+2020-03-18 17:38:45,633 [myid:] - INFO  [main:ZooKeeperServer@140] - zookeeper.closeSessionTxn.enabled = true
+2020-03-18 17:38:45,633 [myid:] - INFO  [main:ZooKeeperServer@1433] - zookeeper.flushDelay=0
+2020-03-18 17:38:45,634 [myid:] - INFO  [main:ZooKeeperServer@1442] - zookeeper.maxWriteQueuePollTime=0
+2020-03-18 17:38:45,634 [myid:] - INFO  [main:ZooKeeperServer@1451] - zookeeper.maxBatchSize=1000
+2020-03-18 17:38:45,634 [myid:] - INFO  [main:ZooKeeperServer@241] - zookeeper.intBufferStartingSizeBytes = 1024
+2020-03-18 17:38:45,640 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-03-18 17:38:45,860 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-03-18 17:38:45,860 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-03-18 17:38:45,861 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-03-18 17:38:45,861 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-03-18 17:38:45,862 [myid:] - INFO  [main:BlueThrottle@141] - Weighed connection throttling is disabled
+2020-03-18 17:38:45,865 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 6000
+2020-03-18 17:38:45,865 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 60000
+2020-03-18 17:38:45,867 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-03-18 17:38:45,868 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-03-18 17:38:45,869 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-03-18 17:38:45,869 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-03-18 17:38:45,870 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-03-18 17:38:45,870 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-03-18 17:38:45,870 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-03-18 17:38:45,870 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-03-18 17:38:45,874 [myid:] - INFO  [main:ZooKeeperServer@1470] - The max bytes for all large requests are set to 104857600
+2020-03-18 17:38:45,874 [myid:] - INFO  [main:ZooKeeperServer@1484] - The large request threshold is set to -1
+2020-03-18 17:38:45,875 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 clientPortListenBacklog -1 datadir /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test7976038338746937108.junit.dir/version-2 snapdir /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test7976038338746937108.junit.dir/version-2
+2020-03-18 17:38:45,877 [myid:] - INFO  [main:NettyServerCnxnFactory@670] - binding to port localhost/127.0.0.1:19302
+2020-03-18 17:38:46,574 [myid:] - INFO  [main:NettyServerCnxnFactory@675] - bound to port 19302
+2020-03-18 17:38:46,811 [myid:] - INFO  [main:FileTxnSnapLog@251] - Initialize file found, an empty database will not block voting participation
+2020-03-18 17:38:46,828 [myid:] - INFO  [main:SnapStream@61] - zookeeper.snapshot.compression.method = CHECKED
+2020-03-18 17:38:46,833 [myid:] - INFO  [main:FileTxnSnapLog@470] - Snapshotting: 0x0 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test7976038338746937108.junit.dir/version-2/snapshot.0
+2020-03-18 17:38:46,840 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 265 ms, highest zxid is 0x0, digest is 1371985504
+2020-03-18 17:38:46,840 [myid:] - INFO  [main:FileTxnSnapLog@470] - Snapshotting: 0x0 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test7976038338746937108.junit.dir/version-2/snapshot.0
+2020-03-18 17:38:46,842 [myid:] - INFO  [main:ZooKeeperServer@519] - Snapshot taken in 1 ms
+2020-03-18 17:38:47,060 [myid:] - INFO  [main:RequestThrottler@74] - zookeeper.request_throttler.shutdownTimeout = 10000
+2020-03-18 17:38:47,325 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 19302
+2020-03-18 17:38:47,325 [myid:] - INFO  [main:FourLetterWordMain@99] - using secure socket
+Found KeyTab /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/ac048536-4810-48a8-9865-7792eddb1beb for zkquorum/localhost@EXAMPLE.COM
+Found ticket for zkquorum/localhost@EXAMPLE.COM to go to krbtgt/EXAMPLE.COM@EXAMPLE.COM expiring on Thu Mar 19 17:38:44 CST 2020
+2020-03-18 17:38:48,991 [myid:] - INFO  [nioEventLoopGroup-4-1:FourLetterCommands@223] - The list of known four letter word commands is : [{1936881266=srvr, 1937006964=stat, 2003003491=wchc, 1685417328=dump, 1668445044=crst, 1936880500=srst, 1701738089=envi, 1668247142=conf, -720899=telnet close, 1751217000=hash, 2003003507=wchs, 2003003504=wchp, 1684632179=dirs, 1668247155=cons, 1835955314=mntr, 1769173615=isro, 1920298859=ruok, 1735683435=gtmk, 1937010027=stmk}]
+2020-03-18 17:38:48,997 [myid:] - INFO  [nioEventLoopGroup-4-1:FourLetterCommands@224] - The list of enabled four letter word commands is : [[wchs, stat, wchp, dirs, stmk, conf, ruok, mntr, srvr, wchc, envi, srst, isro, dump, gtmk, telnet close, crst, hash, cons]]
+2020-03-18 17:38:48,998 [myid:] - INFO  [nioEventLoopGroup-4-1:NettyServerCnxn@285] - Processing stat command from /127.0.0.1:64888
+2020-03-18 17:38:49,009 [myid:] - INFO  [nioEventLoopGroup-4-1:StatCommand@52] - Stat command output
+2020-03-18 17:38:49,028 [myid:] - INFO  [main:JMXEnv@219] - ensureParent:[InMemoryDataTree, StandaloneServer_port]
+2020-03-18 17:38:49,033 [myid:] - INFO  [main:JMXEnv@235] - expect:InMemoryDataTree
+2020-03-18 17:38:49,033 [myid:] - INFO  [main:JMXEnv@239] - found:InMemoryDataTree org.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=InMemoryDataTree
+2020-03-18 17:38:49,033 [myid:] - INFO  [main:JMXEnv@235] - expect:StandaloneServer_port
+2020-03-18 17:38:49,034 [myid:] - INFO  [main:JMXEnv@239] - found:StandaloneServer_port org.apache.ZooKeeperService:name0=StandaloneServer_port-1
+2020-03-18 17:38:49,034 [myid:] - INFO  [main:ClientBase@501] - Client test setup finished
+2020-03-18 17:38:49,034 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testAuth
+2020-03-18 17:38:49,042 [myid:] - INFO  [main:Environment@98] - Client environment:zookeeper.version=3.6.0--b4c89dc7f6083829e18fae6e446907ae0b1f22d7, built on 03/18/2020 09:36 GMT
+2020-03-18 17:38:49,043 [myid:] - INFO  [main:Environment@98] - Client environment:host.name=172.18.14.34
+2020-03-18 17:38:49,043 [myid:] - INFO  [main:Environment@98] - Client environment:java.version=1.8.0_191
+2020-03-18 17:38:49,043 [myid:] - INFO  [main:Environment@98] - Client environment:java.vendor=Oracle Corporation
+2020-03-18 17:38:49,043 [myid:] - INFO  [main:Environment@98] - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre
+2020-03-18 17:38:49,043 [myid:] - INFO  [main:Environment@98] - Client environment:java.class.path=/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/test-classes:/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/classes:/Users/liaosheng/.m2/repository/com/github/spotbugs/spotbugs-annotations/3.1.9/spotbugs-annotations-3.1.9.jar:/Users/liaosheng/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/liaosheng/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/liaosheng/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/liaosheng/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-jute/target/zookeeper-jute-3.6.0.jar:/Users/liaosheng/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/liaosheng/.m2/repository/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar:/Users/liaosheng/.m2/repository/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-transport-native-epoll/4.1.45.Final/netty-transport-native-epoll-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.45.Final/netty-transport-native-unix-common-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/liaosheng/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-server/9.4.24.v20191120/jetty-server-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-http/9.4.24.v20191120/jetty-http-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-util/9.4.24.v20191120/jetty-util-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-io/9.4.24.v20191120/jetty-io-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.24.v20191120/jetty-servlet-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-security/9.4.24.v20191120/jetty-security-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.3/jackson-databind-2.9.10.3.jar:/Users/liaosheng/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/Users/liaosheng/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/Users/liaosheng/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/liaosheng/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar:/Users/liaosheng/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.jar:/Users/liaosheng/.m2/repository/jline/jline/2.11/jline-2.11.jar:/Users/liaosheng/.m2/repository/io/dropwizard/metrics/metrics-core/3.2.5/metrics-core-3.2.5.jar:/Users/liaosheng/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-core/2.0.0/kerb-core-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-pkix/2.0.0/kerby-pkix-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-asn1/2.0.0/kerby-asn1-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-util/2.0.0/kerby-util-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-simplekdc/2.0.0/kerb-simplekdc-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-client/2.0.0/kerb-client-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-common/2.0.0/kerb-common-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-crypto/2.0.0/kerb-crypto-2.0.0.jar:/Users/liaosheng/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-util/2.0.0/kerb-util-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/token-provider/2.0.0/token-provider-2.0.0.jar:/Users/liaosheng/.m2/repository/com/nimbusds/nimbus-jose-jwt/4.41.2/nimbus-jose-jwt-4.41.2.jar:/Users/liaosheng/.m2/repository/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar:/Users/liaosheng/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/liaosheng/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/liaosheng/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-admin/2.0.0/kerb-admin-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-server/2.0.0/kerb-server-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-identity/2.0.0/kerb-identity-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-xdr/2.0.0/kerby-xdr-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-config/2.0.0/kerby-config-2.0.0.jar:/Users/liaosheng/.m2/repository/org/mockito/mockito-core/2.27.0/mockito-core-2.27.0.jar:/Users/liaosheng/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/Users/liaosheng/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/Users/liaosheng/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/Users/liaosheng/.m2/repository/org/jmockit/jmockit/1.48/jmockit-1.48.jar:/Users/liaosheng/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/liaosheng/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/liaosheng/.m2/repository/org/xerial/snappy/snappy-java/1.1.7/snappy-java-1.1.7.jar:
+2020-03-18 17:38:49,046 [myid:] - INFO  [main:Environment@98] - Client environment:java.library.path=/Users/liaosheng/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2020-03-18 17:38:49,047 [myid:] - INFO  [main:Environment@98] - Client environment:java.io.tmpdir=/var/folders/c9/j1lmbpys2t38k93k9_tlj4100000gp/T/
+2020-03-18 17:38:49,047 [myid:] - INFO  [main:Environment@98] - Client environment:java.compiler=<NA>
+2020-03-18 17:38:49,047 [myid:] - INFO  [main:Environment@98] - Client environment:os.name=Mac OS X
+2020-03-18 17:38:49,047 [myid:] - INFO  [main:Environment@98] - Client environment:os.arch=x86_64
+2020-03-18 17:38:49,047 [myid:] - INFO  [main:Environment@98] - Client environment:os.version=10.14.5
+2020-03-18 17:38:49,047 [myid:] - INFO  [main:Environment@98] - Client environment:user.name=liaosheng
+2020-03-18 17:38:49,048 [myid:] - INFO  [main:Environment@98] - Client environment:user.home=/Users/liaosheng
+2020-03-18 17:38:49,048 [myid:] - INFO  [main:Environment@98] - Client environment:user.dir=/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server
+2020-03-18 17:38:49,048 [myid:] - INFO  [main:Environment@98] - Client environment:os.memory.free=90MB
+2020-03-18 17:38:49,048 [myid:] - INFO  [main:Environment@98] - Client environment:os.memory.max=455MB
+2020-03-18 17:38:49,048 [myid:] - INFO  [main:Environment@98] - Client environment:os.memory.total=123MB
+2020-03-18 17:38:49,071 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=localhost:19302 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@20140db9
+2020-03-18 17:38:49,079 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:49,092 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+Debug is  true storeKey false useTicketCache false useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/ac048536-4810-48a8-9865-7792eddb1beb refreshKrb5Config is true principal is zkclient/localhost@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+Java config name: /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test5652337606459965853.junit.dir/1584524321084/krb5.conf
+Loaded from Java config
+>>> KdcAccessibility: reset
+Looking for keys for: zkclient/localhost@EXAMPLE.COM
+Added key: 17version: 1
+Added key: 16version: 1
+Looking for keys for: zkclient/localhost@EXAMPLE.COM
+Added key: 17version: 1
+Added key: 16version: 1
+Using builtin default etypes for default_tkt_enctypes
+default etypes for default_tkt_enctypes: 18 17 16 23.
+>>> KrbAsReq creating message
+>>> KrbKdcReq send: kdc=localhost TCP:64663, timeout=30000, number of retries =3, #bytes=151
+>>> KDCCommunication: kdc=localhost TCP:64663, timeout=30000,Attempt =1, #bytes=151
+2020-03-18 17:38:49,106 [myid:] - INFO  [pool-1-thread-1:KdcRequest@690] - The preauth data is empty.
+2020-03-18 17:38:49,107 [myid:] - INFO  [pool-1-thread-1:KdcHandler@177] - KRB error occurred while processing request: Additional pre-authentication required
+>>>DEBUG: TCPClient reading 162 bytes
+>>> KrbKdcReq send: #bytes read=162
+>>>Pre-Authentication Data:
+	 PA-DATA type = 19
+	 PA-ETYPE-INFO2 etype = 17, salt = null, s2kparams = null
+
+>>> KdcAccessibility: remove localhost:64663
+>>> KDCRep: init() encoding tag is 126 req type is 11
+>>>KRBError:
+	 sTime is Wed Mar 18 17:38:49 CST 2020 1584524329000
+	 suSec is 100
+	 error code is 25
+	 error Message is Additional pre-authentication required
+	 sname is zkclient/localhost@EXAMPLE.COM
+	 eData provided.
+	 msgType is 30
+>>>Pre-Authentication Data:
+	 PA-DATA type = 19
+	 PA-ETYPE-INFO2 etype = 17, salt = null, s2kparams = null
+
+KRBError received: Additional pre-authentication required
+KrbAsReqBuilder: PREAUTH FAILED/REQ, re-send AS-REQ
+Using builtin default etypes for default_tkt_enctypes
+default etypes for default_tkt_enctypes: 18 17 16 23.
+Looking for keys for: zkclient/localhost@EXAMPLE.COM
+Added key: 17version: 1
+Added key: 16version: 1
+Looking for keys for: zkclient/localhost@EXAMPLE.COM
+Added key: 17version: 1
+Added key: 16version: 1
+Using builtin default etypes for default_tkt_enctypes
+default etypes for default_tkt_enctypes: 18 17 16 23.
+>>> EType: sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType
+>>> KrbAsReq creating message
+>>> KrbKdcReq send: kdc=localhost TCP:64663, timeout=30000, number of retries =3, #bytes=238
+>>> KDCCommunication: kdc=localhost TCP:64663, timeout=30000,Attempt =1, #bytes=238
+2020-03-18 17:38:49,117 [myid:] - INFO  [pool-1-thread-1:AsRequest@112] - AS_REQ ISSUE: authtime 1584524329116,zkclient/localhost@EXAMPLE.COM for krbtgt/EXAMPLE.COM@EXAMPLE.COM
+>>>DEBUG: TCPClient reading 543 bytes
+>>> KrbKdcReq send: #bytes read=543
+>>> KdcAccessibility: remove localhost:64663
+Looking for keys for: zkclient/localhost@EXAMPLE.COM
+Added key: 17version: 1
+Added key: 16version: 1
+>>> EType: sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType
+>>> KrbAsRep cons in KrbAsReq.getReply zkclient/localhost
+principal is zkclient/localhost@EXAMPLE.COM
+Will use keytab
+Commit Succeeded 
+
+2020-03-18 17:38:49,120 [myid:localhost:19302] - INFO  [main-SendThread(localhost:19302):Login@320] - ClientUsingKerberos successfully logged in.
+2020-03-18 17:38:49,121 [myid:localhost:19302] - INFO  [Thread-4:Login$1@133] - TGT refresh thread started.
+2020-03-18 17:38:49,121 [myid:localhost:19302] - INFO  [Thread-4:Login@342] - TGT valid starting at:        Wed Mar 18 17:38:49 CST 2020
+2020-03-18 17:38:49,121 [myid:localhost:19302] - INFO  [Thread-4:Login@343] - TGT expires:                  Thu Mar 19 17:38:49 CST 2020
+2020-03-18 17:38:49,121 [myid:localhost:19302] - INFO  [Thread-4:Login$1@199] - TGT refresh sleeping until: Thu Mar 19 13:07:03 CST 2020
+2020-03-18 17:38:49,145 [myid:localhost:19302] - INFO  [main-SendThread(localhost:19302):SecurityUtils$1@119] - Client will use GSSAPI as SASL mechanism.
+2020-03-18 17:38:49,146 [myid:localhost:19302] - INFO  [main-SendThread(localhost:19302):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/0:0:0:0:0:0:0:1:19302.
+2020-03-18 17:38:49,147 [myid:localhost:19302] - INFO  [main-SendThread(localhost:19302):ClientCnxn$SendThread@1156] - SASL config status: Will attempt to SASL-authenticate using Login Context section 'ClientUsingKerberos'
+2020-03-18 17:38:49,181 [myid:localhost:19302] - INFO  [nioEventLoopGroup-5-1:ClientCnxnSocketNetty$ZKClientPipelineFactory@454] - SSL handler added for channel: [id: 0x819f7800]
+2020-03-18 17:38:49,196 [myid:localhost:19302] - WARN  [nioEventLoopGroup-5-1:ClientCnxnSocketNetty$1@150] - future isn't success.
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/0:0:0:0:0:0:0:1:19302
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-18 17:38:50,255 [myid:localhost:19302] - WARN  [Thread-4:Login$1@203] - TGT renewal thread has been interrupted and will exit.
+Debug is  true storeKey false useTicketCache false useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/ac048536-4810-48a8-9865-7792eddb1beb refreshKrb5Config is true principal is zkclient/localhost@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+Java config name: /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test5652337606459965853.junit.dir/1584524321084/krb5.conf
+Loaded from Java config
+>>> KdcAccessibility: reset
+Looking for keys for: zkclient/localhost@EXAMPLE.COM
+Added key: 17version: 1
+Added key: 16version: 1
+Looking for keys for: zkclient/localhost@EXAMPLE.COM
+Added key: 17version: 1
+Added key: 16version: 1
+Using builtin default etypes for default_tkt_enctypes
+default etypes for default_tkt_enctypes: 18 17 16 23.
+>>> KrbAsReq creating message
+>>> KrbKdcReq send: kdc=localhost TCP:64663, timeout=30000, number of retries =3, #bytes=151
+>>> KDCCommunication: kdc=localhost TCP:64663, timeout=30000,Attempt =1, #bytes=151
+2020-03-18 17:38:50,285 [myid:] - INFO  [pool-1-thread-1:KdcRequest@690] - The preauth data is empty.
+2020-03-18 17:38:50,286 [myid:] - INFO  [pool-1-thread-1:KdcHandler@177] - KRB error occurred while processing request: Additional pre-authentication required
+>>>DEBUG: TCPClient reading 162 bytes
+>>> KrbKdcReq send: #bytes read=162
+>>>Pre-Authentication Data:
+	 PA-DATA type = 19
+	 PA-ETYPE-INFO2 etype = 17, salt = null, s2kparams = null
+
+>>> KdcAccessibility: remove localhost:64663
+>>> KDCRep: init() encoding tag is 126 req type is 11
+>>>KRBError:
+	 sTime is Wed Mar 18 17:38:50 CST 2020 1584524330000
+	 suSec is 100
+	 error code is 25
+	 error Message is Additional pre-authentication required
+	 sname is zkclient/localhost@EXAMPLE.COM
+	 eData provided.
+	 msgType is 30
+>>>Pre-Authentication Data:
+	 PA-DATA type = 19
+	 PA-ETYPE-INFO2 etype = 17, salt = null, s2kparams = null
+
+KRBError received: Additional pre-authentication required
+KrbAsReqBuilder: PREAUTH FAILED/REQ, re-send AS-REQ
+Using builtin default etypes for default_tkt_enctypes
+default etypes for default_tkt_enctypes: 18 17 16 23.
+Looking for keys for: zkclient/localhost@EXAMPLE.COM
+Added key: 17version: 1
+Added key: 16version: 1
+Looking for keys for: zkclient/localhost@EXAMPLE.COM
+Added key: 17version: 1
+Added key: 16version: 1
+Using builtin default etypes for default_tkt_enctypes
+default etypes for default_tkt_enctypes: 18 17 16 23.
+>>> EType: sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType
+>>> KrbAsReq creating message
+>>> KrbKdcReq send: kdc=localhost TCP:64663, timeout=30000, number of retries =3, #bytes=238
+>>> KDCCommunication: kdc=localhost TCP:64663, timeout=30000,Attempt =1, #bytes=238
+2020-03-18 17:38:50,292 [myid:] - INFO  [pool-1-thread-1:AsRequest@112] - AS_REQ ISSUE: authtime 1584524330291,zkclient/localhost@EXAMPLE.COM for krbtgt/EXAMPLE.COM@EXAMPLE.COM
+>>>DEBUG: TCPClient reading 543 bytes
+>>> KrbKdcReq send: #bytes read=543
+>>> KdcAccessibility: remove localhost:64663
+Looking for keys for: zkclient/localhost@EXAMPLE.COM
+Added key: 17version: 1
+Added key: 16version: 1
+>>> EType: sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType
+>>> KrbAsRep cons in KrbAsReq.getReply zkclient/localhost
+principal is zkclient/localhost@EXAMPLE.COM
+Will use keytab
+Commit Succeeded 
+
+2020-03-18 17:38:50,295 [myid:localhost:19302] - INFO  [main-SendThread(localhost:19302):Login@320] - ClientUsingKerberos successfully logged in.
+2020-03-18 17:38:50,296 [myid:localhost:19302] - INFO  [Thread-5:Login$1@133] - TGT refresh thread started.
+2020-03-18 17:38:50,296 [myid:localhost:19302] - INFO  [main-SendThread(localhost:19302):SecurityUtils$1@119] - Client will use GSSAPI as SASL mechanism.
+2020-03-18 17:38:50,296 [myid:localhost:19302] - INFO  [Thread-5:Login@342] - TGT valid starting at:        Wed Mar 18 17:38:50 CST 2020
+2020-03-18 17:38:50,296 [myid:localhost:19302] - INFO  [Thread-5:Login@343] - TGT expires:                  Thu Mar 19 17:38:50 CST 2020
+2020-03-18 17:38:50,296 [myid:localhost:19302] - INFO  [Thread-5:Login$1@199] - TGT refresh sleeping until: Thu Mar 19 13:38:39 CST 2020
+2020-03-18 17:38:50,297 [myid:localhost:19302] - INFO  [main-SendThread(localhost:19302):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:19302.
+2020-03-18 17:38:50,297 [myid:localhost:19302] - INFO  [main-SendThread(localhost:19302):ClientCnxn$SendThread@1156] - SASL config status: Will attempt to SASL-authenticate using Login Context section 'ClientUsingKerberos'
+2020-03-18 17:38:50,298 [myid:localhost:19302] - INFO  [nioEventLoopGroup-5-1:ClientCnxnSocketNetty$ZKClientPipelineFactory@454] - SSL handler added for channel: [id: 0x1ab61a94]
+2020-03-18 17:38:50,300 [myid:localhost:19302] - INFO  [nioEventLoopGroup-5-1:ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:64993, server: localhost/127.0.0.1:19302
+Found KeyTab /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/ac048536-4810-48a8-9865-7792eddb1beb for zkquorum/localhost@EXAMPLE.COM
+Found ticket for zkquorum/localhost@EXAMPLE.COM to go to krbtgt/EXAMPLE.COM@EXAMPLE.COM expiring on Thu Mar 19 17:38:44 CST 2020
+2020-03-18 17:38:50,307 [myid:localhost:19302] - INFO  [nioEventLoopGroup-5-1:ClientCnxnSocketNetty$1@184] - channel is connected: [id: 0x1ab61a94, L:/127.0.0.1:64993 - R:localhost/127.0.0.1:19302]
+2020-03-18 17:38:50,367 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.1
+2020-03-18 17:38:50,379 [myid:] - INFO  [SyncThread:0:ZKAuditProvider@42] - ZooKeeper audit is disabled.
+2020-03-18 17:38:50,388 [myid:localhost:19302] - INFO  [nioEventLoopGroup-5-1:ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:19302, session id = 0x100015cdbcc0000, negotiated timeout = 30000
+Found ticket for zkclient/localhost@EXAMPLE.COM to go to krbtgt/EXAMPLE.COM@EXAMPLE.COM expiring on Thu Mar 19 17:38:50 CST 2020
+2020-03-18 17:38:50,397 [myid:] - INFO  [main:JMXEnv@116] - expect:0x100015cdbcc0000
+2020-03-18 17:38:50,397 [myid:] - INFO  [main:JMXEnv@119] - found:0x100015cdbcc0000 org.apache.ZooKeeperService:name0=StandaloneServer_port-1,name1=Connections,name2=127.0.0.1,name3=0x100015cdbcc0000
+Entered Krb5Context.initSecContext with state=STATE_NEW
+Found ticket for zkclient/localhost@EXAMPLE.COM to go to krbtgt/EXAMPLE.COM@EXAMPLE.COM expiring on Thu Mar 19 17:38:50 CST 2020
+Service ticket not found in the subject
+>>> Credentials acquireServiceCreds: same realm
+Using builtin default etypes for default_tgs_enctypes
+default etypes for default_tgs_enctypes: 18 17 16 23.
+>>> CksumType: sun.security.krb5.internal.crypto.RsaMd5CksumType
+>>> EType: sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType
+>>> KrbKdcReq send: kdc=localhost TCP:64663, timeout=30000, number of retries =3, #bytes=590
+>>> KDCCommunication: kdc=localhost TCP:64663, timeout=30000,Attempt =1, #bytes=590
+2020-03-18 17:38:50,446 [myid:] - INFO  [pool-1-thread-1:TgsRequest@117] - TGS_REQ ISSUE: authtime 1584524330443,zkclient/localhost@EXAMPLE.COM for zkquorum/localhost@EXAMPLE.COM
+>>>DEBUG: TCPClient reading 538 bytes
+>>> KrbKdcReq send: #bytes read=538
+>>> KdcAccessibility: remove localhost:64663
+>>> EType: sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType
+>>> KrbApReq: APOptions are 00000000 00000000 00000000 00000000
+>>> EType: sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType
+Krb5Context setting mySeqNumber to: 64180329
+Krb5Context setting peerSeqNumber to: 0

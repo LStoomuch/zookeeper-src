@@ -1,0 +1,8 @@
+#surefire_126
+#Wed Mar 18 17:40:18 CST 2020
+zookeeper.DigestAuthenticationProvider.superDigest=super\:D/InIHSb7yEEbrWz8b9l71RjZJU\=
+idea.version2019.3.3=true
+user.dir=/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server
+localRepository=/Users/liaosheng/.m2/repository
+build.test.dir=/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire
+basedir=/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server

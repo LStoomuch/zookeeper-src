@@ -1,0 +1,234 @@
+2020-03-18 17:37:18,974 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-03-18 17:37:18,988 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-03-18 17:37:19,068 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testLENewEpoch
+2020-03-18 17:37:19,098 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testLENewEpoch
+2020-03-18 17:37:19,099 [myid:] - INFO  [main:FLENewEpochTest@154] - TestLE: testLENewEpoch, 3
+2020-03-18 17:37:19,109 [myid:] - INFO  [main:PortAssignment@154] - Test process 5/8 using ports from 21993 - 24685.
+2020-03-18 17:37:19,601 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 21994 from range 21993 - 24685.
+2020-03-18 17:37:19,602 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 21995 from range 21993 - 24685.
+2020-03-18 17:37:19,654 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 21996 from range 21993 - 24685.
+2020-03-18 17:37:19,654 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 21997 from range 21993 - 24685.
+2020-03-18 17:37:19,655 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 21998 from range 21993 - 24685.
+2020-03-18 17:37:19,656 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 21999 from range 21993 - 24685.
+2020-03-18 17:37:19,656 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 22000 from range 21993 - 24685.
+2020-03-18 17:37:19,657 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 22001 from range 21993 - 24685.
+2020-03-18 17:37:19,658 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 22002 from range 21993 - 24685.
+2020-03-18 17:37:19,796 [myid:] - INFO  [main:QuorumPeer@752] - zookeeper.quorumCnxnTimeoutMs=-1
+2020-03-18 17:37:19,868 [myid:] - INFO  [main:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-03-18 17:37:19,927 [myid:] - WARN  [main:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2020-03-18 17:37:19,929 [myid:] - INFO  [main:NIOServerCnxnFactory@666] - Configuring NIO connection handler with 10s sessionless connection timeout, 1 selector thread(s), 8 worker threads, and 64 kB direct buffers.
+2020-03-18 17:37:20,389 [myid:] - INFO  [main:NIOServerCnxnFactory@674] - binding to port 0.0.0.0/0.0.0.0:21999
+2020-03-18 17:37:20,423 [myid:] - INFO  [main:X509Util@77] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2020-03-18 17:37:20,440 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-03-18 17:37:20,796 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-03-18 17:37:20,797 [myid:] - INFO  [main:ZookeeperBanner@42] -   ______                  _                                          
+2020-03-18 17:37:20,797 [myid:] - INFO  [main:ZookeeperBanner@42] -  |___  /                 | |                                         
+2020-03-18 17:37:20,797 [myid:] - INFO  [main:ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+2020-03-18 17:37:20,798 [myid:] - INFO  [main:ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+2020-03-18 17:37:20,798 [myid:] - INFO  [main:ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+2020-03-18 17:37:20,799 [myid:] - INFO  [main:ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+2020-03-18 17:37:20,799 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               | |                     
+2020-03-18 17:37:20,799 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               |_|                     
+2020-03-18 17:37:20,799 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-03-18 17:37:21,191 [myid:] - INFO  [main:Environment@98] - Server environment:zookeeper.version=3.6.0--b4c89dc7f6083829e18fae6e446907ae0b1f22d7, built on 03/18/2020 09:36 GMT
+2020-03-18 17:37:21,192 [myid:] - INFO  [main:Environment@98] - Server environment:host.name=172.18.14.34
+2020-03-18 17:37:21,192 [myid:] - INFO  [main:Environment@98] - Server environment:java.version=1.8.0_191
+2020-03-18 17:37:21,192 [myid:] - INFO  [main:Environment@98] - Server environment:java.vendor=Oracle Corporation
+2020-03-18 17:37:21,193 [myid:] - INFO  [main:Environment@98] - Server environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre
+2020-03-18 17:37:21,193 [myid:] - INFO  [main:Environment@98] - Server environment:java.class.path=/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/test-classes:/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/classes:/Users/liaosheng/.m2/repository/com/github/spotbugs/spotbugs-annotations/3.1.9/spotbugs-annotations-3.1.9.jar:/Users/liaosheng/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/liaosheng/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/liaosheng/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/liaosheng/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-jute/target/zookeeper-jute-3.6.0.jar:/Users/liaosheng/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/liaosheng/.m2/repository/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar:/Users/liaosheng/.m2/repository/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-transport-native-epoll/4.1.45.Final/netty-transport-native-epoll-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.45.Final/netty-transport-native-unix-common-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/liaosheng/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-server/9.4.24.v20191120/jetty-server-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-http/9.4.24.v20191120/jetty-http-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-util/9.4.24.v20191120/jetty-util-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-io/9.4.24.v20191120/jetty-io-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.24.v20191120/jetty-servlet-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-security/9.4.24.v20191120/jetty-security-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.3/jackson-databind-2.9.10.3.jar:/Users/liaosheng/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/Users/liaosheng/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/Users/liaosheng/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/liaosheng/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar:/Users/liaosheng/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.jar:/Users/liaosheng/.m2/repository/jline/jline/2.11/jline-2.11.jar:/Users/liaosheng/.m2/repository/io/dropwizard/metrics/metrics-core/3.2.5/metrics-core-3.2.5.jar:/Users/liaosheng/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-core/2.0.0/kerb-core-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-pkix/2.0.0/kerby-pkix-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-asn1/2.0.0/kerby-asn1-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-util/2.0.0/kerby-util-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-simplekdc/2.0.0/kerb-simplekdc-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-client/2.0.0/kerb-client-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-common/2.0.0/kerb-common-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-crypto/2.0.0/kerb-crypto-2.0.0.jar:/Users/liaosheng/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-util/2.0.0/kerb-util-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/token-provider/2.0.0/token-provider-2.0.0.jar:/Users/liaosheng/.m2/repository/com/nimbusds/nimbus-jose-jwt/4.41.2/nimbus-jose-jwt-4.41.2.jar:/Users/liaosheng/.m2/repository/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar:/Users/liaosheng/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/liaosheng/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/liaosheng/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-admin/2.0.0/kerb-admin-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-server/2.0.0/kerb-server-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-identity/2.0.0/kerb-identity-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-xdr/2.0.0/kerby-xdr-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-config/2.0.0/kerby-config-2.0.0.jar:/Users/liaosheng/.m2/repository/org/mockito/mockito-core/2.27.0/mockito-core-2.27.0.jar:/Users/liaosheng/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/Users/liaosheng/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/Users/liaosheng/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/Users/liaosheng/.m2/repository/org/jmockit/jmockit/1.48/jmockit-1.48.jar:/Users/liaosheng/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/liaosheng/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/liaosheng/.m2/repository/org/xerial/snappy/snappy-java/1.1.7/snappy-java-1.1.7.jar:
+2020-03-18 17:37:21,198 [myid:] - INFO  [main:Environment@98] - Server environment:java.library.path=/Users/liaosheng/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2020-03-18 17:37:21,199 [myid:] - INFO  [main:Environment@98] - Server environment:java.io.tmpdir=/var/folders/c9/j1lmbpys2t38k93k9_tlj4100000gp/T/
+2020-03-18 17:37:21,199 [myid:] - INFO  [main:Environment@98] - Server environment:java.compiler=<NA>
+2020-03-18 17:37:21,200 [myid:] - INFO  [main:Environment@98] - Server environment:os.name=Mac OS X
+2020-03-18 17:37:21,200 [myid:] - INFO  [main:Environment@98] - Server environment:os.arch=x86_64
+2020-03-18 17:37:21,202 [myid:] - INFO  [main:Environment@98] - Server environment:os.version=10.14.5
+2020-03-18 17:37:21,202 [myid:] - INFO  [main:Environment@98] - Server environment:user.name=liaosheng
+2020-03-18 17:37:21,202 [myid:] - INFO  [main:Environment@98] - Server environment:user.home=/Users/liaosheng
+2020-03-18 17:37:21,202 [myid:] - INFO  [main:Environment@98] - Server environment:user.dir=/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server
+2020-03-18 17:37:21,203 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.free=110MB
+2020-03-18 17:37:21,204 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.max=455MB
+2020-03-18 17:37:21,204 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.total=123MB
+2020-03-18 17:37:21,206 [myid:] - INFO  [main:ZooKeeperServer@128] - zookeeper.enableEagerACLCheck = false
+2020-03-18 17:37:21,207 [myid:] - INFO  [main:ZooKeeperServer@136] - zookeeper.digest.enabled = true
+2020-03-18 17:37:21,207 [myid:] - INFO  [main:ZooKeeperServer@140] - zookeeper.closeSessionTxn.enabled = true
+2020-03-18 17:37:21,207 [myid:] - INFO  [main:ZooKeeperServer@1433] - zookeeper.flushDelay=0
+2020-03-18 17:37:21,208 [myid:] - INFO  [main:ZooKeeperServer@1442] - zookeeper.maxWriteQueuePollTime=0
+2020-03-18 17:37:21,208 [myid:] - INFO  [main:ZooKeeperServer@1451] - zookeeper.maxBatchSize=1000
+2020-03-18 17:37:21,208 [myid:] - INFO  [main:ZooKeeperServer@241] - zookeeper.intBufferStartingSizeBytes = 1024
+2020-03-18 17:37:21,225 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-03-18 17:37:21,225 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-03-18 17:37:21,226 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-03-18 17:37:21,226 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-03-18 17:37:21,226 [myid:] - WARN  [main:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-03-18 17:37:22,028 [myid:] - INFO  [main:FileTxnSnapLog@251] - Initialize file found, an empty database will not block voting participation
+2020-03-18 17:37:22,107 [myid:] - INFO  [main:SnapStream@61] - zookeeper.snapshot.compression.method = CHECKED
+2020-03-18 17:37:22,108 [myid:] - INFO  [main:FileTxnSnapLog@470] - Snapshotting: 0x0 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test8809059215108127112.junit.dir/version-2/snapshot.0
+2020-03-18 17:37:22,264 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 746 ms, highest zxid is 0x0, digest is 1371985504
+2020-03-18 17:37:22,265 [myid:] - INFO  [main:QuorumPeer@1102] - currentEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2020-03-18 17:37:22,269 [myid:] - INFO  [main:QuorumPeer@1122] - acceptedEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2020-03-18 17:37:22,270 [myid:] - INFO  [main:QuorumPeer@2503] - Using 2000ms as the quorum cnxn socket timeout
+2020-03-18 17:37:22,281 [myid:] - INFO  [main:QuorumCnxManager$Listener@906] - Election port bind maximum retries is 3
+2020-03-18 17:37:22,285 [myid:] - INFO  [main:FastLeaderElection@87] - zookeeper.fastleader.minNotificationInterval=200
+2020-03-18 17:37:22,285 [myid:] - INFO  [main:FastLeaderElection@89] - zookeeper.fastleader.maxNotificationInterval=60000
+2020-03-18 17:37:22,290 [myid:] - INFO  [main:FLENewEpochTest$LEThread@87] - Constructor: Thread-0
+2020-03-18 17:37:22,290 [myid:] - INFO  [main:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-03-18 17:37:22,290 [myid:] - INFO  [Thread-0:QuorumPeer@863] - Peer state changed: looking
+2020-03-18 17:37:22,290 [myid:] - WARN  [main:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2020-03-18 17:37:22,290 [myid:] - INFO  [Thread-0:FLENewEpochTest$LEThread@97] - Going to call leader election again: 1
+2020-03-18 17:37:22,291 [myid:] - INFO  [main:NIOServerCnxnFactory@666] - Configuring NIO connection handler with 10s sessionless connection timeout, 1 selector thread(s), 8 worker threads, and 64 kB direct buffers.
+2020-03-18 17:37:22,291 [myid:] - INFO  [main:NIOServerCnxnFactory@674] - binding to port 0.0.0.0/0.0.0.0:22002
+2020-03-18 17:37:22,291 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-03-18 17:37:22,292 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-03-18 17:37:22,293 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-03-18 17:37:22,293 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-03-18 17:37:22,293 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-03-18 17:37:22,293 [myid:] - WARN  [main:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-03-18 17:37:22,294 [myid:] - INFO  [main:FileTxnSnapLog@251] - Initialize file found, an empty database will not block voting participation
+2020-03-18 17:37:22,294 [myid:] - INFO  [ListenerHandler-/127.0.0.1:21998:QuorumCnxManager$Listener$ListenerHandler@1047] - My election bind port: /127.0.0.1:21998
+2020-03-18 17:37:22,295 [myid:] - INFO  [main:FileTxnSnapLog@470] - Snapshotting: 0x0 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test6974453234179143624.junit.dir/version-2/snapshot.0
+2020-03-18 17:37:22,297 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 3 ms, highest zxid is 0x0, digest is 1371985504
+2020-03-18 17:37:22,298 [myid:] - INFO  [main:QuorumPeer@1102] - currentEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2020-03-18 17:37:22,299 [myid:] - INFO  [main:QuorumPeer@1122] - acceptedEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2020-03-18 17:37:22,300 [myid:] - INFO  [main:QuorumPeer@2503] - Using 2000ms as the quorum cnxn socket timeout
+2020-03-18 17:37:22,300 [myid:] - INFO  [main:QuorumCnxManager$Listener@906] - Election port bind maximum retries is 3
+2020-03-18 17:37:22,301 [myid:] - INFO  [ListenerHandler-/127.0.0.1:22001:QuorumCnxManager$Listener$ListenerHandler@1047] - My election bind port: /127.0.0.1:22001
+2020-03-18 17:37:22,301 [myid:] - INFO  [main:FLENewEpochTest$LEThread@87] - Constructor: Thread-2
+2020-03-18 17:37:22,305 [myid:] - INFO  [Thread-2:QuorumPeer@863] - Peer state changed: looking
+2020-03-18 17:37:22,305 [myid:] - INFO  [Thread-2:FLENewEpochTest$LEThread@97] - Going to call leader election again: 2
+2020-03-18 17:37:23,148 [myid:] - INFO  [Thread-2:FastLeaderElection@931] - New election. My id = 2, proposed zxid=0x0
+2020-03-18 17:37:23,149 [myid:] - WARN  [Thread-0:MBeanRegistry@110] - Failed to register MBean LeaderElection
+2020-03-18 17:37:23,153 [myid:] - WARN  [Thread-0:FastLeaderElection@902] - Failed to register with JMX
+javax.management.InstanceAlreadyExistsException: org.apache.ZooKeeperService:name0=LeaderElection
+	at com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:437)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1898)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:966)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:900)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:324)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at org.apache.zookeeper.jmx.MBeanRegistry.register(MBeanRegistry.java:106)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:900)
+	at org.apache.zookeeper.test.FLENewEpochTest$LEThread.run(FLENewEpochTest.java:98)
+2020-03-18 17:37:23,158 [myid:] - INFO  [Thread-0:FastLeaderElection@931] - New election. My id = 1, proposed zxid=0x0
+2020-03-18 17:37:23,168 [myid:] - WARN  [WorkerSender[myid=2]:QuorumCnxManager@716] - Cannot open channel to 0 at election address /127.0.0.1:21995
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:677)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:748)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.toSend(QuorumCnxManager.java:644)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.process(FastLeaderElection.java:503)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.run(FastLeaderElection.java:487)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-18 17:37:23,168 [myid:] - WARN  [WorkerSender[myid=1]:QuorumCnxManager@716] - Cannot open channel to 0 at election address /127.0.0.1:21995
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:677)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:748)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.toSend(QuorumCnxManager.java:644)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.process(FastLeaderElection.java:503)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.run(FastLeaderElection.java:487)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-18 17:37:23,169 [myid:] - INFO  [ListenerHandler-/127.0.0.1:21998:QuorumCnxManager$Listener$ListenerHandler@1052] - Received connection request /127.0.0.1:59779
+2020-03-18 17:37:23,180 [myid:] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@376] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:2, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-03-18 17:37:23,180 [myid:] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@376] - Notification: my state:LOOKING; n.sid:2, n.state:LOOKING, n.leader:2, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-03-18 17:37:23,181 [myid:] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@376] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:1, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-03-18 17:37:23,182 [myid:] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@376] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:1, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-03-18 17:37:23,183 [myid:] - WARN  [WorkerSender[myid=1]:QuorumCnxManager@716] - Cannot open channel to 0 at election address /127.0.0.1:21995
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:677)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:748)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.toSend(QuorumCnxManager.java:644)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.process(FastLeaderElection.java:503)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.run(FastLeaderElection.java:487)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-18 17:37:23,185 [myid:] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@376] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:2, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-03-18 17:37:23,186 [myid:] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@376] - Notification: my state:LOOKING; n.sid:1, n.state:LOOKING, n.leader:2, n.round:0x1, n.peerEpoch:0x0, n.zxid:0x0, message format version:0x2, n.config version:0x0
+2020-03-18 17:37:23,386 [myid:] - INFO  [Thread-2:QuorumPeer@857] - Peer state changed: leading
+2020-03-18 17:37:23,387 [myid:] - INFO  [Thread-2:FLENewEpochTest$LEThread@110] - Finished election: 2, 2
+2020-03-18 17:37:23,387 [myid:] - INFO  [Thread-2:FLENewEpochTest$LEThread@135] - Third peer, shutting it down
+2020-03-18 17:37:23,388 [myid:] - INFO  [Thread-0:QuorumPeer@857] - Peer state changed: following
+2020-03-18 17:37:23,388 [myid:] - INFO  [Thread-2:QuorumBase@364] - Shutting down quorum peer QuorumPeer
+2020-03-18 17:37:23,389 [myid:] - INFO  [Thread-0:FLENewEpochTest$LEThread@110] - Finished election: 1, 2
+2020-03-18 17:37:23,389 [myid:] - INFO  [Thread-0:FLENewEpochTest$LEThread@123] - Second entering case
+2020-03-18 17:37:23,398 [myid:] - INFO  [QuorumPeerListener:QuorumCnxManager$Listener@961] - Leaving listener
+2020-03-18 17:37:23,399 [myid:] - WARN  [RecvWorker:2:QuorumCnxManager$RecvWorker@1374] - Connection broken for id 2, my id = 1
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker.run(QuorumCnxManager.java:1362)
+2020-03-18 17:37:23,399 [myid:] - WARN  [RecvWorker:1:QuorumCnxManager$RecvWorker@1374] - Connection broken for id 1, my id = 2
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker.run(QuorumCnxManager.java:1362)
+2020-03-18 17:37:23,400 [myid:] - WARN  [RecvWorker:1:QuorumCnxManager$RecvWorker@1380] - Interrupting SendWorker
+2020-03-18 17:37:23,399 [myid:] - WARN  [SendWorker:1:QuorumCnxManager$SendWorker@1262] - Interrupted while waiting for message on queue
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at org.apache.zookeeper.util.CircularBlockingQueue.poll(CircularBlockingQueue.java:105)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.pollSendQueue(QuorumCnxManager.java:1425)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.access$900(QuorumCnxManager.java:97)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker.run(QuorumCnxManager.java:1251)
+2020-03-18 17:37:23,400 [myid:] - INFO  [Thread-2:QuorumBase@368] - Shutting down leader election QuorumPeer
+2020-03-18 17:37:23,400 [myid:] - WARN  [RecvWorker:2:QuorumCnxManager$RecvWorker@1380] - Interrupting SendWorker
+2020-03-18 17:37:23,401 [myid:] - INFO  [Thread-2:QuorumBase@373] - Waiting for QuorumPeer to exit thread
+2020-03-18 17:37:23,401 [myid:] - WARN  [SendWorker:1:QuorumCnxManager$SendWorker@1274] - Send worker leaving thread id 1 my id = 2
+2020-03-18 17:37:23,402 [myid:] - INFO  [Thread-2:FLENewEpochTest$LEThread@140] - Third leaving
+2020-03-18 17:37:23,402 [myid:] - WARN  [SendWorker:2:QuorumCnxManager$SendWorker@1262] - Interrupted while waiting for message on queue
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at org.apache.zookeeper.util.CircularBlockingQueue.poll(CircularBlockingQueue.java:105)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.pollSendQueue(QuorumCnxManager.java:1425)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.access$900(QuorumCnxManager.java:97)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker.run(QuorumCnxManager.java:1251)
+2020-03-18 17:37:23,402 [myid:] - INFO  [main:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-03-18 17:37:23,403 [myid:] - WARN  [main:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2020-03-18 17:37:23,402 [myid:] - INFO  [Thread-0:FLENewEpochTest$LEThread@131] - Second is going to start second round
+2020-03-18 17:37:23,403 [myid:] - INFO  [main:NIOServerCnxnFactory@666] - Configuring NIO connection handler with 10s sessionless connection timeout, 1 selector thread(s), 8 worker threads, and 64 kB direct buffers.
+2020-03-18 17:37:23,402 [myid:] - WARN  [SendWorker:2:QuorumCnxManager$SendWorker@1274] - Send worker leaving thread id 2 my id = 1
+2020-03-18 17:37:23,403 [myid:] - INFO  [Thread-0:QuorumPeer@863] - Peer state changed: looking
+2020-03-18 17:37:23,404 [myid:] - INFO  [main:NIOServerCnxnFactory@674] - binding to port 0.0.0.0/0.0.0.0:21996
+2020-03-18 17:37:23,404 [myid:] - INFO  [Thread-0:FLENewEpochTest$LEThread@97] - Going to call leader election again: 1
+2020-03-18 17:37:23,404 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-03-18 17:37:23,405 [myid:] - INFO  [Thread-0:FastLeaderElection@931] - New election. My id = 1, proposed zxid=0x0
+2020-03-18 17:37:23,405 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-03-18 17:37:23,405 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-03-18 17:37:23,405 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-03-18 17:37:23,406 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-03-18 17:37:23,406 [myid:] - WARN  [main:QuorumPeer@1784] - configFilename is null! This should only happen in tests.
+2020-03-18 17:37:23,406 [myid:] - INFO  [main:FileTxnSnapLog@251] - Initialize file found, an empty database will not block voting participation
+2020-03-18 17:37:23,407 [myid:] - WARN  [WorkerSender[myid=1]:QuorumCnxManager@716] - Cannot open channel to 0 at election address /127.0.0.1:21995
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:677)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:748)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.toSend(QuorumCnxManager.java:644)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.process(FastLeaderElection.java:503)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.run(FastLeaderElection.java:487)
+	at java.lang.Thread.run(Thread.java:748)

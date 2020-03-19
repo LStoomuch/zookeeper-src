@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.zookeeper.SaslAuthTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 34.756 s <<< FAILURE! - in org.apache.zookeeper.SaslAuthTest
+testZKOperationsAfterClientSaslAuthFailure(org.apache.zookeeper.SaslAuthTest)  Time elapsed: 30.066 s  <<< ERROR!
+java.util.concurrent.TimeoutException: Failed to connect to ZooKeeper server.
+	at org.apache.zookeeper.SaslAuthTest.testZKOperationsAfterClientSaslAuthFailure(SaslAuthTest.java:172)
+

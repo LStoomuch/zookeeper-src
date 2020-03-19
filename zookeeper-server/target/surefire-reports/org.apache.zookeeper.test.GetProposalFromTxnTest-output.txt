@@ -1,0 +1,257 @@
+2020-03-18 17:36:14,396 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-03-18 17:36:14,467 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-03-18 17:36:14,497 [myid:] - INFO  [main:PortAssignment@154] - Test process 4/8 using ports from 19300 - 21992.
+2020-03-18 17:36:14,605 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 19301 from range 19300 - 21992.
+2020-03-18 17:36:14,608 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testGetProposalFromTxn
+2020-03-18 17:36:14,628 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testGetProposalFromTxn
+2020-03-18 17:36:14,775 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-03-18 17:36:14,775 [myid:] - INFO  [main:ZookeeperBanner@42] -   ______                  _                                          
+2020-03-18 17:36:14,776 [myid:] - INFO  [main:ZookeeperBanner@42] -  |___  /                 | |                                         
+2020-03-18 17:36:14,777 [myid:] - INFO  [main:ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+2020-03-18 17:36:14,777 [myid:] - INFO  [main:ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+2020-03-18 17:36:14,777 [myid:] - INFO  [main:ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+2020-03-18 17:36:14,777 [myid:] - INFO  [main:ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+2020-03-18 17:36:14,778 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               | |                     
+2020-03-18 17:36:14,778 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               |_|                     
+2020-03-18 17:36:14,778 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-03-18 17:36:14,800 [myid:] - INFO  [main:Environment@98] - Server environment:zookeeper.version=3.6.0--b4c89dc7f6083829e18fae6e446907ae0b1f22d7, built on 03/18/2020 09:36 GMT
+2020-03-18 17:36:14,800 [myid:] - INFO  [main:Environment@98] - Server environment:host.name=172.18.14.34
+2020-03-18 17:36:14,800 [myid:] - INFO  [main:Environment@98] - Server environment:java.version=1.8.0_191
+2020-03-18 17:36:14,800 [myid:] - INFO  [main:Environment@98] - Server environment:java.vendor=Oracle Corporation
+2020-03-18 17:36:14,800 [myid:] - INFO  [main:Environment@98] - Server environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre
+2020-03-18 17:36:14,801 [myid:] - INFO  [main:Environment@98] - Server environment:java.class.path=/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/test-classes:/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/classes:/Users/liaosheng/.m2/repository/com/github/spotbugs/spotbugs-annotations/3.1.9/spotbugs-annotations-3.1.9.jar:/Users/liaosheng/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/liaosheng/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/liaosheng/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/liaosheng/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-jute/target/zookeeper-jute-3.6.0.jar:/Users/liaosheng/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/liaosheng/.m2/repository/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar:/Users/liaosheng/.m2/repository/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-transport-native-epoll/4.1.45.Final/netty-transport-native-epoll-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.45.Final/netty-transport-native-unix-common-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/liaosheng/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-server/9.4.24.v20191120/jetty-server-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-http/9.4.24.v20191120/jetty-http-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-util/9.4.24.v20191120/jetty-util-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-io/9.4.24.v20191120/jetty-io-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.24.v20191120/jetty-servlet-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-security/9.4.24.v20191120/jetty-security-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.3/jackson-databind-2.9.10.3.jar:/Users/liaosheng/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/Users/liaosheng/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/Users/liaosheng/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/liaosheng/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar:/Users/liaosheng/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.jar:/Users/liaosheng/.m2/repository/jline/jline/2.11/jline-2.11.jar:/Users/liaosheng/.m2/repository/io/dropwizard/metrics/metrics-core/3.2.5/metrics-core-3.2.5.jar:/Users/liaosheng/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-core/2.0.0/kerb-core-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-pkix/2.0.0/kerby-pkix-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-asn1/2.0.0/kerby-asn1-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-util/2.0.0/kerby-util-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-simplekdc/2.0.0/kerb-simplekdc-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-client/2.0.0/kerb-client-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-common/2.0.0/kerb-common-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-crypto/2.0.0/kerb-crypto-2.0.0.jar:/Users/liaosheng/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-util/2.0.0/kerb-util-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/token-provider/2.0.0/token-provider-2.0.0.jar:/Users/liaosheng/.m2/repository/com/nimbusds/nimbus-jose-jwt/4.41.2/nimbus-jose-jwt-4.41.2.jar:/Users/liaosheng/.m2/repository/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar:/Users/liaosheng/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/liaosheng/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/liaosheng/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-admin/2.0.0/kerb-admin-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-server/2.0.0/kerb-server-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-identity/2.0.0/kerb-identity-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-xdr/2.0.0/kerby-xdr-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-config/2.0.0/kerby-config-2.0.0.jar:/Users/liaosheng/.m2/repository/org/mockito/mockito-core/2.27.0/mockito-core-2.27.0.jar:/Users/liaosheng/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/Users/liaosheng/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/Users/liaosheng/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/Users/liaosheng/.m2/repository/org/jmockit/jmockit/1.48/jmockit-1.48.jar:/Users/liaosheng/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/liaosheng/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/liaosheng/.m2/repository/org/xerial/snappy/snappy-java/1.1.7/snappy-java-1.1.7.jar:
+2020-03-18 17:36:14,801 [myid:] - INFO  [main:Environment@98] - Server environment:java.library.path=/Users/liaosheng/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2020-03-18 17:36:14,801 [myid:] - INFO  [main:Environment@98] - Server environment:java.io.tmpdir=/var/folders/c9/j1lmbpys2t38k93k9_tlj4100000gp/T/
+2020-03-18 17:36:14,802 [myid:] - INFO  [main:Environment@98] - Server environment:java.compiler=<NA>
+2020-03-18 17:36:14,802 [myid:] - INFO  [main:Environment@98] - Server environment:os.name=Mac OS X
+2020-03-18 17:36:14,802 [myid:] - INFO  [main:Environment@98] - Server environment:os.arch=x86_64
+2020-03-18 17:36:14,802 [myid:] - INFO  [main:Environment@98] - Server environment:os.version=10.14.5
+2020-03-18 17:36:14,802 [myid:] - INFO  [main:Environment@98] - Server environment:user.name=liaosheng
+2020-03-18 17:36:14,802 [myid:] - INFO  [main:Environment@98] - Server environment:user.home=/Users/liaosheng
+2020-03-18 17:36:14,802 [myid:] - INFO  [main:Environment@98] - Server environment:user.dir=/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server
+2020-03-18 17:36:14,803 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.free=113MB
+2020-03-18 17:36:14,803 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.max=455MB
+2020-03-18 17:36:14,803 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.total=123MB
+2020-03-18 17:36:14,803 [myid:] - INFO  [main:ZooKeeperServer@128] - zookeeper.enableEagerACLCheck = false
+2020-03-18 17:36:14,803 [myid:] - INFO  [main:ZooKeeperServer@136] - zookeeper.digest.enabled = true
+2020-03-18 17:36:14,803 [myid:] - INFO  [main:ZooKeeperServer@140] - zookeeper.closeSessionTxn.enabled = true
+2020-03-18 17:36:14,804 [myid:] - INFO  [main:ZooKeeperServer@1433] - zookeeper.flushDelay=0
+2020-03-18 17:36:14,804 [myid:] - INFO  [main:ZooKeeperServer@1442] - zookeeper.maxWriteQueuePollTime=0
+2020-03-18 17:36:14,804 [myid:] - INFO  [main:ZooKeeperServer@1451] - zookeeper.maxBatchSize=1000
+2020-03-18 17:36:14,804 [myid:] - INFO  [main:ZooKeeperServer@241] - zookeeper.intBufferStartingSizeBytes = 1024
+2020-03-18 17:36:14,807 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-03-18 17:36:14,837 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-03-18 17:36:14,838 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-03-18 17:36:14,838 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-03-18 17:36:14,839 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-03-18 17:36:14,840 [myid:] - INFO  [main:BlueThrottle@141] - Weighed connection throttling is disabled
+2020-03-18 17:36:14,844 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 6000
+2020-03-18 17:36:14,844 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 60000
+2020-03-18 17:36:14,846 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-03-18 17:36:14,848 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-03-18 17:36:14,850 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-03-18 17:36:14,850 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-03-18 17:36:14,850 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-03-18 17:36:14,851 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-03-18 17:36:14,851 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-03-18 17:36:14,851 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-03-18 17:36:14,853 [myid:] - INFO  [main:ZooKeeperServer@1470] - The max bytes for all large requests are set to 104857600
+2020-03-18 17:36:14,854 [myid:] - INFO  [main:ZooKeeperServer@1484] - The large request threshold is set to -1
+2020-03-18 17:36:14,854 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 clientPortListenBacklog -1 datadir /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2 snapdir /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2
+2020-03-18 17:36:15,170 [myid:] - INFO  [main:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-03-18 17:36:15,172 [myid:] - WARN  [main:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2020-03-18 17:36:15,174 [myid:] - INFO  [main:NIOServerCnxnFactory@666] - Configuring NIO connection handler with 10s sessionless connection timeout, 1 selector thread(s), 8 worker threads, and 64 kB direct buffers.
+2020-03-18 17:36:15,259 [myid:] - INFO  [main:NIOServerCnxnFactory@674] - binding to port 0.0.0.0/0.0.0.0:19301
+2020-03-18 17:36:15,419 [myid:] - INFO  [main:FileTxnSnapLog@251] - Initialize file found, an empty database will not block voting participation
+2020-03-18 17:36:15,504 [myid:] - INFO  [main:SnapStream@61] - zookeeper.snapshot.compression.method = CHECKED
+2020-03-18 17:36:15,512 [myid:] - INFO  [main:FileTxnSnapLog@470] - Snapshotting: 0x0 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.0
+2020-03-18 17:36:15,519 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 239 ms, highest zxid is 0x0, digest is 1371985504
+2020-03-18 17:36:15,519 [myid:] - INFO  [main:FileTxnSnapLog@470] - Snapshotting: 0x0 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.0
+2020-03-18 17:36:15,525 [myid:] - INFO  [main:ZooKeeperServer@519] - Snapshot taken in 6 ms
+2020-03-18 17:36:15,562 [myid:] - INFO  [main:RequestThrottler@74] - zookeeper.request_throttler.shutdownTimeout = 10000
+2020-03-18 17:36:15,861 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 19301
+2020-03-18 17:36:15,886 [myid:] - INFO  [NIOWorkerThread-1:FourLetterCommands@223] - The list of known four letter word commands is : [{1936881266=srvr, 1937006964=stat, 2003003491=wchc, 1685417328=dump, 1668445044=crst, 1936880500=srst, 1701738089=envi, 1668247142=conf, -720899=telnet close, 1751217000=hash, 2003003507=wchs, 2003003504=wchp, 1684632179=dirs, 1668247155=cons, 1835955314=mntr, 1769173615=isro, 1920298859=ruok, 1735683435=gtmk, 1937010027=stmk}]
+2020-03-18 17:36:15,886 [myid:] - INFO  [NIOWorkerThread-1:FourLetterCommands@224] - The list of enabled four letter word commands is : [[wchs, stat, wchp, dirs, stmk, conf, ruok, mntr, srvr, wchc, envi, srst, isro, dump, gtmk, telnet close, crst, hash, cons]]
+2020-03-18 17:36:15,886 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@507] - Processing stat command from /127.0.0.1:53978
+2020-03-18 17:36:15,895 [myid:] - INFO  [NIOWorkerThread-1:StatCommand@52] - Stat command output
+2020-03-18 17:36:16,020 [myid:] - INFO  [main:Environment@98] - Client environment:zookeeper.version=3.6.0--b4c89dc7f6083829e18fae6e446907ae0b1f22d7, built on 03/18/2020 09:36 GMT
+2020-03-18 17:36:16,021 [myid:] - INFO  [main:Environment@98] - Client environment:host.name=172.18.14.34
+2020-03-18 17:36:16,021 [myid:] - INFO  [main:Environment@98] - Client environment:java.version=1.8.0_191
+2020-03-18 17:36:16,021 [myid:] - INFO  [main:Environment@98] - Client environment:java.vendor=Oracle Corporation
+2020-03-18 17:36:16,021 [myid:] - INFO  [main:Environment@98] - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre
+2020-03-18 17:36:16,021 [myid:] - INFO  [main:Environment@98] - Client environment:java.class.path=/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/test-classes:/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/classes:/Users/liaosheng/.m2/repository/com/github/spotbugs/spotbugs-annotations/3.1.9/spotbugs-annotations-3.1.9.jar:/Users/liaosheng/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/liaosheng/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/liaosheng/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/liaosheng/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-jute/target/zookeeper-jute-3.6.0.jar:/Users/liaosheng/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/liaosheng/.m2/repository/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar:/Users/liaosheng/.m2/repository/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-transport-native-epoll/4.1.45.Final/netty-transport-native-epoll-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.45.Final/netty-transport-native-unix-common-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/liaosheng/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-server/9.4.24.v20191120/jetty-server-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-http/9.4.24.v20191120/jetty-http-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-util/9.4.24.v20191120/jetty-util-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-io/9.4.24.v20191120/jetty-io-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.24.v20191120/jetty-servlet-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-security/9.4.24.v20191120/jetty-security-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.3/jackson-databind-2.9.10.3.jar:/Users/liaosheng/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/Users/liaosheng/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/Users/liaosheng/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/liaosheng/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar:/Users/liaosheng/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.jar:/Users/liaosheng/.m2/repository/jline/jline/2.11/jline-2.11.jar:/Users/liaosheng/.m2/repository/io/dropwizard/metrics/metrics-core/3.2.5/metrics-core-3.2.5.jar:/Users/liaosheng/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-core/2.0.0/kerb-core-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-pkix/2.0.0/kerby-pkix-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-asn1/2.0.0/kerby-asn1-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-util/2.0.0/kerby-util-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-simplekdc/2.0.0/kerb-simplekdc-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-client/2.0.0/kerb-client-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-common/2.0.0/kerb-common-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-crypto/2.0.0/kerb-crypto-2.0.0.jar:/Users/liaosheng/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-util/2.0.0/kerb-util-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/token-provider/2.0.0/token-provider-2.0.0.jar:/Users/liaosheng/.m2/repository/com/nimbusds/nimbus-jose-jwt/4.41.2/nimbus-jose-jwt-4.41.2.jar:/Users/liaosheng/.m2/repository/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar:/Users/liaosheng/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/liaosheng/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/liaosheng/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-admin/2.0.0/kerb-admin-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-server/2.0.0/kerb-server-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-identity/2.0.0/kerb-identity-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-xdr/2.0.0/kerby-xdr-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-config/2.0.0/kerby-config-2.0.0.jar:/Users/liaosheng/.m2/repository/org/mockito/mockito-core/2.27.0/mockito-core-2.27.0.jar:/Users/liaosheng/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/Users/liaosheng/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/Users/liaosheng/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/Users/liaosheng/.m2/repository/org/jmockit/jmockit/1.48/jmockit-1.48.jar:/Users/liaosheng/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/liaosheng/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/liaosheng/.m2/repository/org/xerial/snappy/snappy-java/1.1.7/snappy-java-1.1.7.jar:
+2020-03-18 17:36:16,022 [myid:] - INFO  [main:Environment@98] - Client environment:java.library.path=/Users/liaosheng/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2020-03-18 17:36:16,022 [myid:] - INFO  [main:Environment@98] - Client environment:java.io.tmpdir=/var/folders/c9/j1lmbpys2t38k93k9_tlj4100000gp/T/
+2020-03-18 17:36:16,022 [myid:] - INFO  [main:Environment@98] - Client environment:java.compiler=<NA>
+2020-03-18 17:36:16,023 [myid:] - INFO  [main:Environment@98] - Client environment:os.name=Mac OS X
+2020-03-18 17:36:16,023 [myid:] - INFO  [main:Environment@98] - Client environment:os.arch=x86_64
+2020-03-18 17:36:16,023 [myid:] - INFO  [main:Environment@98] - Client environment:os.version=10.14.5
+2020-03-18 17:36:16,023 [myid:] - INFO  [main:Environment@98] - Client environment:user.name=liaosheng
+2020-03-18 17:36:16,024 [myid:] - INFO  [main:Environment@98] - Client environment:user.home=/Users/liaosheng
+2020-03-18 17:36:16,024 [myid:] - INFO  [main:Environment@98] - Client environment:user.dir=/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server
+2020-03-18 17:36:16,024 [myid:] - INFO  [main:Environment@98] - Client environment:os.memory.free=101MB
+2020-03-18 17:36:16,024 [myid:] - INFO  [main:Environment@98] - Client environment:os.memory.max=455MB
+2020-03-18 17:36:16,024 [myid:] - INFO  [main:Environment@98] - Client environment:os.memory.total=123MB
+2020-03-18 17:36:16,028 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:19301 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@44c8afef
+2020-03-18 17:36:16,037 [myid:] - INFO  [main:X509Util@77] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2020-03-18 17:36:16,062 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:36:16,078 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:36:16,105 [myid:127.0.0.1:19301] - INFO  [main-SendThread(127.0.0.1:19301):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:19301.
+2020-03-18 17:36:16,105 [myid:127.0.0.1:19301] - INFO  [main-SendThread(127.0.0.1:19301):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:36:16,109 [myid:127.0.0.1:19301] - INFO  [main-SendThread(127.0.0.1:19301):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:53993, server: localhost/127.0.0.1:19301
+2020-03-18 17:36:16,116 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.1
+2020-03-18 17:36:16,130 [myid:] - INFO  [SyncThread:0:ZKAuditProvider@42] - ZooKeeper audit is disabled.
+2020-03-18 17:36:16,134 [myid:127.0.0.1:19301] - INFO  [main-SendThread(127.0.0.1:19301):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:19301, session id = 0x100015a8bf60000, negotiated timeout = 30000
+2020-03-18 17:36:16,449 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x30 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.30
+2020-03-18 17:36:16,452 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.32
+2020-03-18 17:36:16,454 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 5 ms
+2020-03-18 17:36:16,704 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x56 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.56
+2020-03-18 17:36:16,708 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 4 ms
+2020-03-18 17:36:16,715 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.58
+2020-03-18 17:36:17,040 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x7d to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.7d
+2020-03-18 17:36:17,042 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 2 ms
+2020-03-18 17:36:17,048 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.7f
+2020-03-18 17:36:17,253 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x9d to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.9d
+2020-03-18 17:36:17,254 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.9f
+2020-03-18 17:36:17,255 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 2 ms
+2020-03-18 17:36:17,407 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0xb9 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.b9
+2020-03-18 17:36:17,409 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 2 ms
+2020-03-18 17:36:17,430 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.bb
+2020-03-18 17:36:17,844 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0xde to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.de
+2020-03-18 17:36:17,846 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 2 ms
+2020-03-18 17:36:17,852 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.e0
+2020-03-18 17:36:18,052 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0xff to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.ff
+2020-03-18 17:36:18,055 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 3 ms
+2020-03-18 17:36:18,070 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.101
+2020-03-18 17:36:18,457 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x125 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.125
+2020-03-18 17:36:18,459 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.127
+2020-03-18 17:36:18,459 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 2 ms
+2020-03-18 17:36:18,912 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x14e to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.14e
+2020-03-18 17:36:18,913 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.150
+2020-03-18 17:36:18,914 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 2 ms
+2020-03-18 17:36:18,952 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x16b to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.16b
+2020-03-18 17:36:18,953 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.16d
+2020-03-18 17:36:18,954 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 2 ms
+2020-03-18 17:36:19,007 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x18f to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.18f
+2020-03-18 17:36:19,009 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.191
+2020-03-18 17:36:19,009 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 2 ms
+2020-03-18 17:36:19,447 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x1ba to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.1ba
+2020-03-18 17:36:19,449 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.1bc
+2020-03-18 17:36:19,449 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 2 ms
+2020-03-18 17:36:19,508 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x1e7 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.1e7
+2020-03-18 17:36:19,509 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.1e9
+2020-03-18 17:36:19,510 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 2 ms
+2020-03-18 17:36:20,089 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x215 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.215
+2020-03-18 17:36:20,092 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 3 ms
+2020-03-18 17:36:20,098 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.217
+2020-03-18 17:36:20,411 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x247 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.247
+2020-03-18 17:36:20,414 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 3 ms
+2020-03-18 17:36:20,418 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.249
+2020-03-18 17:36:20,486 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x279 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.279
+2020-03-18 17:36:20,487 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.27b
+2020-03-18 17:36:20,489 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 3 ms
+2020-03-18 17:36:20,665 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x297 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.297
+2020-03-18 17:36:20,668 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 4 ms
+2020-03-18 17:36:20,684 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.299
+2020-03-18 17:36:20,873 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x2bd to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.2bd
+2020-03-18 17:36:20,875 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.2bf
+2020-03-18 17:36:20,876 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 3 ms
+2020-03-18 17:36:21,041 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x2d7 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.2d7
+2020-03-18 17:36:21,043 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.2d9
+2020-03-18 17:36:21,045 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 4 ms
+2020-03-18 17:36:21,092 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x2f2 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.2f2
+2020-03-18 17:36:21,093 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.2f4
+2020-03-18 17:36:21,095 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 3 ms
+2020-03-18 17:36:21,417 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x324 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.324
+2020-03-18 17:36:21,418 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.326
+2020-03-18 17:36:21,421 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 4 ms
+2020-03-18 17:36:21,447 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x342 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.342
+2020-03-18 17:36:21,448 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.344
+2020-03-18 17:36:21,451 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 3 ms
+2020-03-18 17:36:21,485 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x35f to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.35f
+2020-03-18 17:36:21,487 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.361
+2020-03-18 17:36:21,489 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 4 ms
+2020-03-18 17:36:21,915 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x390 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.390
+2020-03-18 17:36:21,916 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.392
+2020-03-18 17:36:21,919 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 4 ms
+2020-03-18 17:36:21,972 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x3b7 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.3b7
+2020-03-18 17:36:21,973 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.3b9
+2020-03-18 17:36:21,976 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 4 ms
+2020-03-18 17:36:22,164 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x3e9 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.3e9
+2020-03-18 17:36:22,168 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 4 ms
+2020-03-18 17:36:22,170 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.3eb
+2020-03-18 17:36:22,246 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x40c to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.40c
+2020-03-18 17:36:22,247 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.40e
+2020-03-18 17:36:22,250 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 4 ms
+2020-03-18 17:36:22,602 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x439 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.439
+2020-03-18 17:36:22,602 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.43b
+2020-03-18 17:36:22,606 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 4 ms
+2020-03-18 17:36:22,727 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x45e to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.45e
+2020-03-18 17:36:22,728 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.460
+2020-03-18 17:36:22,731 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 4 ms
+2020-03-18 17:36:22,932 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x47d to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.47d
+2020-03-18 17:36:22,933 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.47f
+2020-03-18 17:36:22,937 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 4 ms
+2020-03-18 17:36:22,997 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x4ad to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.4ad
+2020-03-18 17:36:22,998 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.4af
+2020-03-18 17:36:23,002 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 5 ms
+2020-03-18 17:36:23,110 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x4ce to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.4ce
+2020-03-18 17:36:23,111 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.4d0
+2020-03-18 17:36:23,114 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 4 ms
+2020-03-18 17:36:23,236 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x4ec to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.4ec
+2020-03-18 17:36:23,241 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 5 ms
+2020-03-18 17:36:23,242 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.4ee
+2020-03-18 17:36:23,401 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x50b to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.50b
+2020-03-18 17:36:23,406 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 5 ms
+2020-03-18 17:36:23,408 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.50d
+2020-03-18 17:36:23,505 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x52e to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.52e
+2020-03-18 17:36:23,510 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 5 ms
+2020-03-18 17:36:23,533 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.530
+2020-03-18 17:36:23,635 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x55f to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.55f
+2020-03-18 17:36:23,635 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.561
+2020-03-18 17:36:23,640 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 5 ms
+2020-03-18 17:36:23,834 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x589 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.589
+2020-03-18 17:36:23,835 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.58b
+2020-03-18 17:36:23,840 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 6 ms
+2020-03-18 17:36:24,005 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x5a7 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.5a7
+2020-03-18 17:36:24,006 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.5a9
+2020-03-18 17:36:24,010 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 5 ms
+2020-03-18 17:36:24,090 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x5c2 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.5c2
+2020-03-18 17:36:24,091 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.5c4
+2020-03-18 17:36:24,095 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 5 ms
+2020-03-18 17:36:24,318 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x5e9 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.5e9
+2020-03-18 17:36:24,324 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 5 ms
+2020-03-18 17:36:24,325 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.5eb
+2020-03-18 17:36:24,491 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x61b to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.61b
+2020-03-18 17:36:24,495 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.61d
+2020-03-18 17:36:24,496 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 5 ms
+2020-03-18 17:36:24,649 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x63a to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.63a
+2020-03-18 17:36:24,653 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.63c
+2020-03-18 17:36:24,654 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 5 ms
+2020-03-18 17:36:24,711 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x660 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.660
+2020-03-18 17:36:24,713 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.662
+2020-03-18 17:36:24,717 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 6 ms
+2020-03-18 17:36:24,752 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x67e to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.67e
+2020-03-18 17:36:24,753 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.680
+2020-03-18 17:36:24,758 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 6 ms
+2020-03-18 17:36:24,964 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x69d to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.69d
+2020-03-18 17:36:24,966 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.69f
+2020-03-18 17:36:24,970 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 6 ms
+2020-03-18 17:36:25,114 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x6b9 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.6b9
+2020-03-18 17:36:25,121 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 7 ms
+2020-03-18 17:36:25,121 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.6bb
+2020-03-18 17:36:25,198 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x6d4 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.6d4
+2020-03-18 17:36:25,201 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.6d6
+2020-03-18 17:36:25,204 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 6 ms
+2020-03-18 17:36:25,274 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x6fb to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.6fb
+2020-03-18 17:36:25,280 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 6 ms
+2020-03-18 17:36:25,341 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.6fd
+2020-03-18 17:36:25,651 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x729 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.729
+2020-03-18 17:36:25,652 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.72b
+2020-03-18 17:36:25,657 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 6 ms
+2020-03-18 17:36:25,721 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x751 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.751
+2020-03-18 17:36:25,721 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.753
+2020-03-18 17:36:25,726 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 6 ms
+2020-03-18 17:36:25,766 [myid:] - INFO  [Snapshot Thread:FileTxnSnapLog@470] - Snapshotting: 0x76d to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test2339618028226525290.junit.dir/version-2/snapshot.76d
+2020-03-18 17:36:25,767 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.76f
+2020-03-18 17:36:25,775 [myid:] - INFO  [Snapshot Thread:ZooKeeperServer@519] - Snapshot taken in 9 ms

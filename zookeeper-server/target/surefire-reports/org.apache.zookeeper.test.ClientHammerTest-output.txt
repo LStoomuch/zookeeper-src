@@ -1,0 +1,919 @@
+2020-03-18 17:37:54,779 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-03-18 17:37:54,787 [myid:] - INFO  [main:JUnit4ZKTestRunner@51] - No test.method specified. using default methods.
+2020-03-18 17:37:54,964 [myid:] - INFO  [main:PortAssignment@154] - Test process 7/8 using ports from 27379 - 30071.
+2020-03-18 17:37:54,988 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 27380 from range 27379 - 30071.
+2020-03-18 17:37:54,992 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testHammerBasic
+2020-03-18 17:37:55,015 [myid:] - INFO  [main:ClientBase@486] - Initial fdcount is: 76
+2020-03-18 17:37:55,312 [myid:] - INFO  [main:JMXEnv@58] - connecting to addr service:jmx:rmi://127.0.0.1/stub/rO0ABXNyAC5qYXZheC5tYW5hZ2VtZW50LnJlbW90ZS5ybWkuUk1JU2VydmVySW1wbF9TdHViAAAAAAAAAAICAAB4cgAaamF2YS5ybWkuc2VydmVyLlJlbW90ZVN0dWLp/tzJi+FlGgIAAHhyABxqYXZhLnJtaS5zZXJ2ZXIuUmVtb3RlT2JqZWN002G0kQxhMx4DAAB4cHc3AAtVbmljYXN0UmVmMgAADDE3Mi4xOC4xNC4zNAAA7nv6dzYTzVM465TLa3cAAAFw7QGtzYABAHg=
+2020-03-18 17:37:55,600 [myid:] - INFO  [main:ClientBase@514] - STARTING server
+2020-03-18 17:37:55,601 [myid:] - INFO  [main:ClientBase@423] - CREATING server instance 127.0.0.1:27380
+2020-03-18 17:37:55,674 [myid:] - INFO  [main:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-03-18 17:37:55,676 [myid:] - WARN  [main:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2020-03-18 17:37:55,678 [myid:] - INFO  [main:NIOServerCnxnFactory@666] - Configuring NIO connection handler with 10s sessionless connection timeout, 1 selector thread(s), 8 worker threads, and 64 kB direct buffers.
+2020-03-18 17:37:55,707 [myid:] - INFO  [main:NIOServerCnxnFactory@674] - binding to port 0.0.0.0/0.0.0.0:27380
+2020-03-18 17:37:55,719 [myid:] - INFO  [main:ClientBase@395] - STARTING server instance 127.0.0.1:27380
+2020-03-18 17:37:55,881 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-03-18 17:37:55,881 [myid:] - INFO  [main:ZookeeperBanner@42] -   ______                  _                                          
+2020-03-18 17:37:55,882 [myid:] - INFO  [main:ZookeeperBanner@42] -  |___  /                 | |                                         
+2020-03-18 17:37:55,882 [myid:] - INFO  [main:ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+2020-03-18 17:37:55,882 [myid:] - INFO  [main:ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+2020-03-18 17:37:55,882 [myid:] - INFO  [main:ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+2020-03-18 17:37:55,883 [myid:] - INFO  [main:ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+2020-03-18 17:37:55,883 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               | |                     
+2020-03-18 17:37:55,883 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               |_|                     
+2020-03-18 17:37:55,883 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-03-18 17:37:55,964 [myid:] - INFO  [main:Environment@98] - Server environment:zookeeper.version=3.6.0--b4c89dc7f6083829e18fae6e446907ae0b1f22d7, built on 03/18/2020 09:36 GMT
+2020-03-18 17:37:55,964 [myid:] - INFO  [main:Environment@98] - Server environment:host.name=172.18.14.34
+2020-03-18 17:37:55,965 [myid:] - INFO  [main:Environment@98] - Server environment:java.version=1.8.0_191
+2020-03-18 17:37:55,965 [myid:] - INFO  [main:Environment@98] - Server environment:java.vendor=Oracle Corporation
+2020-03-18 17:37:55,965 [myid:] - INFO  [main:Environment@98] - Server environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre
+2020-03-18 17:37:55,965 [myid:] - INFO  [main:Environment@98] - Server environment:java.class.path=/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/test-classes:/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/classes:/Users/liaosheng/.m2/repository/com/github/spotbugs/spotbugs-annotations/3.1.9/spotbugs-annotations-3.1.9.jar:/Users/liaosheng/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/liaosheng/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/liaosheng/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/liaosheng/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-jute/target/zookeeper-jute-3.6.0.jar:/Users/liaosheng/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/liaosheng/.m2/repository/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar:/Users/liaosheng/.m2/repository/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-transport-native-epoll/4.1.45.Final/netty-transport-native-epoll-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.45.Final/netty-transport-native-unix-common-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/liaosheng/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-server/9.4.24.v20191120/jetty-server-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-http/9.4.24.v20191120/jetty-http-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-util/9.4.24.v20191120/jetty-util-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-io/9.4.24.v20191120/jetty-io-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.24.v20191120/jetty-servlet-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-security/9.4.24.v20191120/jetty-security-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.3/jackson-databind-2.9.10.3.jar:/Users/liaosheng/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/Users/liaosheng/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/Users/liaosheng/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/liaosheng/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar:/Users/liaosheng/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.jar:/Users/liaosheng/.m2/repository/jline/jline/2.11/jline-2.11.jar:/Users/liaosheng/.m2/repository/io/dropwizard/metrics/metrics-core/3.2.5/metrics-core-3.2.5.jar:/Users/liaosheng/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-core/2.0.0/kerb-core-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-pkix/2.0.0/kerby-pkix-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-asn1/2.0.0/kerby-asn1-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-util/2.0.0/kerby-util-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-simplekdc/2.0.0/kerb-simplekdc-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-client/2.0.0/kerb-client-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-common/2.0.0/kerb-common-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-crypto/2.0.0/kerb-crypto-2.0.0.jar:/Users/liaosheng/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-util/2.0.0/kerb-util-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/token-provider/2.0.0/token-provider-2.0.0.jar:/Users/liaosheng/.m2/repository/com/nimbusds/nimbus-jose-jwt/4.41.2/nimbus-jose-jwt-4.41.2.jar:/Users/liaosheng/.m2/repository/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar:/Users/liaosheng/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/liaosheng/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/liaosheng/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-admin/2.0.0/kerb-admin-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-server/2.0.0/kerb-server-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-identity/2.0.0/kerb-identity-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-xdr/2.0.0/kerby-xdr-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-config/2.0.0/kerby-config-2.0.0.jar:/Users/liaosheng/.m2/repository/org/mockito/mockito-core/2.27.0/mockito-core-2.27.0.jar:/Users/liaosheng/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/Users/liaosheng/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/Users/liaosheng/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/Users/liaosheng/.m2/repository/org/jmockit/jmockit/1.48/jmockit-1.48.jar:/Users/liaosheng/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/liaosheng/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/liaosheng/.m2/repository/org/xerial/snappy/snappy-java/1.1.7/snappy-java-1.1.7.jar:
+2020-03-18 17:37:55,966 [myid:] - INFO  [main:Environment@98] - Server environment:java.library.path=/Users/liaosheng/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2020-03-18 17:37:55,966 [myid:] - INFO  [main:Environment@98] - Server environment:java.io.tmpdir=/var/folders/c9/j1lmbpys2t38k93k9_tlj4100000gp/T/
+2020-03-18 17:37:55,966 [myid:] - INFO  [main:Environment@98] - Server environment:java.compiler=<NA>
+2020-03-18 17:37:55,966 [myid:] - INFO  [main:Environment@98] - Server environment:os.name=Mac OS X
+2020-03-18 17:37:55,966 [myid:] - INFO  [main:Environment@98] - Server environment:os.arch=x86_64
+2020-03-18 17:37:55,966 [myid:] - INFO  [main:Environment@98] - Server environment:os.version=10.14.5
+2020-03-18 17:37:55,967 [myid:] - INFO  [main:Environment@98] - Server environment:user.name=liaosheng
+2020-03-18 17:37:55,967 [myid:] - INFO  [main:Environment@98] - Server environment:user.home=/Users/liaosheng
+2020-03-18 17:37:55,967 [myid:] - INFO  [main:Environment@98] - Server environment:user.dir=/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server
+2020-03-18 17:37:55,967 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.free=115MB
+2020-03-18 17:37:55,967 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.max=455MB
+2020-03-18 17:37:55,967 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.total=123MB
+2020-03-18 17:37:55,968 [myid:] - INFO  [main:ZooKeeperServer@128] - zookeeper.enableEagerACLCheck = false
+2020-03-18 17:37:55,968 [myid:] - INFO  [main:ZooKeeperServer@136] - zookeeper.digest.enabled = true
+2020-03-18 17:37:55,968 [myid:] - INFO  [main:ZooKeeperServer@140] - zookeeper.closeSessionTxn.enabled = true
+2020-03-18 17:37:55,968 [myid:] - INFO  [main:ZooKeeperServer@1433] - zookeeper.flushDelay=0
+2020-03-18 17:37:55,969 [myid:] - INFO  [main:ZooKeeperServer@1442] - zookeeper.maxWriteQueuePollTime=0
+2020-03-18 17:37:55,970 [myid:] - INFO  [main:ZooKeeperServer@1451] - zookeeper.maxBatchSize=1000
+2020-03-18 17:37:55,970 [myid:] - INFO  [main:ZooKeeperServer@241] - zookeeper.intBufferStartingSizeBytes = 1024
+2020-03-18 17:37:55,973 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-03-18 17:37:56,074 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-03-18 17:37:56,074 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-03-18 17:37:56,075 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-03-18 17:37:56,075 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-03-18 17:37:56,076 [myid:] - INFO  [main:BlueThrottle@141] - Weighed connection throttling is disabled
+2020-03-18 17:37:56,079 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 6000
+2020-03-18 17:37:56,085 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 60000
+2020-03-18 17:37:56,088 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-03-18 17:37:56,088 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-03-18 17:37:56,090 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-03-18 17:37:56,090 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-03-18 17:37:56,091 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-03-18 17:37:56,092 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-03-18 17:37:56,093 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-03-18 17:37:56,093 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-03-18 17:37:56,095 [myid:] - INFO  [main:ZooKeeperServer@1470] - The max bytes for all large requests are set to 104857600
+2020-03-18 17:37:56,095 [myid:] - INFO  [main:ZooKeeperServer@1484] - The large request threshold is set to -1
+2020-03-18 17:37:56,096 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 clientPortListenBacklog -1 datadir /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test7456134610309431328.junit.dir/version-2 snapdir /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test7456134610309431328.junit.dir/version-2
+2020-03-18 17:37:56,171 [myid:] - INFO  [main:FileTxnSnapLog@251] - Initialize file found, an empty database will not block voting participation
+2020-03-18 17:37:56,179 [myid:] - INFO  [main:SnapStream@61] - zookeeper.snapshot.compression.method = CHECKED
+2020-03-18 17:37:56,179 [myid:] - INFO  [main:FileTxnSnapLog@470] - Snapshotting: 0x0 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test7456134610309431328.junit.dir/version-2/snapshot.0
+2020-03-18 17:37:56,184 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 86 ms, highest zxid is 0x0, digest is 1371985504
+2020-03-18 17:37:56,185 [myid:] - INFO  [main:FileTxnSnapLog@470] - Snapshotting: 0x0 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test7456134610309431328.junit.dir/version-2/snapshot.0
+2020-03-18 17:37:56,186 [myid:] - INFO  [main:ZooKeeperServer@519] - Snapshot taken in 1 ms
+2020-03-18 17:37:56,232 [myid:] - INFO  [main:RequestThrottler@74] - zookeeper.request_throttler.shutdownTimeout = 10000
+2020-03-18 17:37:56,271 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 27380
+2020-03-18 17:37:56,291 [myid:] - INFO  [NIOWorkerThread-1:FourLetterCommands@223] - The list of known four letter word commands is : [{1936881266=srvr, 1937006964=stat, 2003003491=wchc, 1685417328=dump, 1668445044=crst, 1936880500=srst, 1701738089=envi, 1668247142=conf, -720899=telnet close, 1751217000=hash, 2003003507=wchs, 2003003504=wchp, 1684632179=dirs, 1668247155=cons, 1835955314=mntr, 1769173615=isro, 1920298859=ruok, 1735683435=gtmk, 1937010027=stmk}]
+2020-03-18 17:37:56,292 [myid:] - INFO  [NIOWorkerThread-1:FourLetterCommands@224] - The list of enabled four letter word commands is : [[wchs, stat, wchp, dirs, stmk, conf, ruok, mntr, srvr, wchc, envi, srst, isro, dump, gtmk, telnet close, crst, hash, cons]]
+2020-03-18 17:37:56,292 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@507] - Processing stat command from /127.0.0.1:61167
+2020-03-18 17:37:56,298 [myid:] - INFO  [NIOWorkerThread-1:StatCommand@52] - Stat command output
+2020-03-18 17:37:56,301 [myid:] - INFO  [main:JMXEnv@219] - ensureParent:[InMemoryDataTree, StandaloneServer_port]
+2020-03-18 17:37:56,306 [myid:] - INFO  [main:JMXEnv@235] - expect:InMemoryDataTree
+2020-03-18 17:37:56,307 [myid:] - INFO  [main:JMXEnv@239] - found:InMemoryDataTree org.apache.ZooKeeperService:name0=StandaloneServer_port27380,name1=InMemoryDataTree
+2020-03-18 17:37:56,307 [myid:] - INFO  [main:JMXEnv@235] - expect:StandaloneServer_port
+2020-03-18 17:37:56,307 [myid:] - INFO  [main:JMXEnv@239] - found:StandaloneServer_port org.apache.ZooKeeperService:name0=StandaloneServer_port27380
+2020-03-18 17:37:56,307 [myid:] - INFO  [main:ClientBase@501] - Client test setup finished
+2020-03-18 17:37:56,307 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testHammerBasic
+2020-03-18 17:37:56,313 [myid:] - INFO  [main:Environment@98] - Client environment:zookeeper.version=3.6.0--b4c89dc7f6083829e18fae6e446907ae0b1f22d7, built on 03/18/2020 09:36 GMT
+2020-03-18 17:37:56,313 [myid:] - INFO  [main:Environment@98] - Client environment:host.name=172.18.14.34
+2020-03-18 17:37:56,314 [myid:] - INFO  [main:Environment@98] - Client environment:java.version=1.8.0_191
+2020-03-18 17:37:56,317 [myid:] - INFO  [main:Environment@98] - Client environment:java.vendor=Oracle Corporation
+2020-03-18 17:37:56,317 [myid:] - INFO  [main:Environment@98] - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre
+2020-03-18 17:37:56,317 [myid:] - INFO  [main:Environment@98] - Client environment:java.class.path=/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/test-classes:/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/classes:/Users/liaosheng/.m2/repository/com/github/spotbugs/spotbugs-annotations/3.1.9/spotbugs-annotations-3.1.9.jar:/Users/liaosheng/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/liaosheng/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/liaosheng/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/liaosheng/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-jute/target/zookeeper-jute-3.6.0.jar:/Users/liaosheng/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/Users/liaosheng/.m2/repository/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar:/Users/liaosheng/.m2/repository/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-transport-native-epoll/4.1.45.Final/netty-transport-native-epoll-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.45.Final/netty-transport-native-unix-common-4.1.45.Final.jar:/Users/liaosheng/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/liaosheng/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-server/9.4.24.v20191120/jetty-server-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-http/9.4.24.v20191120/jetty-http-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-util/9.4.24.v20191120/jetty-util-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-io/9.4.24.v20191120/jetty-io-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.24.v20191120/jetty-servlet-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/org/eclipse/jetty/jetty-security/9.4.24.v20191120/jetty-security-9.4.24.v20191120.jar:/Users/liaosheng/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.3/jackson-databind-2.9.10.3.jar:/Users/liaosheng/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/Users/liaosheng/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/Users/liaosheng/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/liaosheng/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar:/Users/liaosheng/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.jar:/Users/liaosheng/.m2/repository/jline/jline/2.11/jline-2.11.jar:/Users/liaosheng/.m2/repository/io/dropwizard/metrics/metrics-core/3.2.5/metrics-core-3.2.5.jar:/Users/liaosheng/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-core/2.0.0/kerb-core-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-pkix/2.0.0/kerby-pkix-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-asn1/2.0.0/kerby-asn1-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-util/2.0.0/kerby-util-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-simplekdc/2.0.0/kerb-simplekdc-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-client/2.0.0/kerb-client-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-common/2.0.0/kerb-common-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-crypto/2.0.0/kerb-crypto-2.0.0.jar:/Users/liaosheng/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-util/2.0.0/kerb-util-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/token-provider/2.0.0/token-provider-2.0.0.jar:/Users/liaosheng/.m2/repository/com/nimbusds/nimbus-jose-jwt/4.41.2/nimbus-jose-jwt-4.41.2.jar:/Users/liaosheng/.m2/repository/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar:/Users/liaosheng/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/liaosheng/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/liaosheng/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-admin/2.0.0/kerb-admin-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-server/2.0.0/kerb-server-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerb-identity/2.0.0/kerb-identity-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-xdr/2.0.0/kerby-xdr-2.0.0.jar:/Users/liaosheng/.m2/repository/org/apache/kerby/kerby-config/2.0.0/kerby-config-2.0.0.jar:/Users/liaosheng/.m2/repository/org/mockito/mockito-core/2.27.0/mockito-core-2.27.0.jar:/Users/liaosheng/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/Users/liaosheng/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.10/byte-buddy-agent-1.9.10.jar:/Users/liaosheng/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/Users/liaosheng/.m2/repository/org/jmockit/jmockit/1.48/jmockit-1.48.jar:/Users/liaosheng/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/liaosheng/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/liaosheng/.m2/repository/org/xerial/snappy/snappy-java/1.1.7/snappy-java-1.1.7.jar:
+2020-03-18 17:37:56,318 [myid:] - INFO  [main:Environment@98] - Client environment:java.library.path=/Users/liaosheng/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2020-03-18 17:37:56,318 [myid:] - INFO  [main:Environment@98] - Client environment:java.io.tmpdir=/var/folders/c9/j1lmbpys2t38k93k9_tlj4100000gp/T/
+2020-03-18 17:37:56,318 [myid:] - INFO  [main:Environment@98] - Client environment:java.compiler=<NA>
+2020-03-18 17:37:56,318 [myid:] - INFO  [main:Environment@98] - Client environment:os.name=Mac OS X
+2020-03-18 17:37:56,318 [myid:] - INFO  [main:Environment@98] - Client environment:os.arch=x86_64
+2020-03-18 17:37:56,319 [myid:] - INFO  [main:Environment@98] - Client environment:os.version=10.14.5
+2020-03-18 17:37:56,319 [myid:] - INFO  [main:Environment@98] - Client environment:user.name=liaosheng
+2020-03-18 17:37:56,319 [myid:] - INFO  [main:Environment@98] - Client environment:user.home=/Users/liaosheng
+2020-03-18 17:37:56,319 [myid:] - INFO  [main:Environment@98] - Client environment:user.dir=/Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server
+2020-03-18 17:37:56,319 [myid:] - INFO  [main:Environment@98] - Client environment:os.memory.free=106MB
+2020-03-18 17:37:56,319 [myid:] - INFO  [main:Environment@98] - Client environment:os.memory.max=455MB
+2020-03-18 17:37:56,319 [myid:] - INFO  [main:Environment@98] - Client environment:os.memory.total=123MB
+2020-03-18 17:37:56,323 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27380 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@1990a65e
+2020-03-18 17:37:56,326 [myid:] - INFO  [main:X509Util@77] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2020-03-18 17:37:56,330 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:37:56,338 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:37:56,347 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27380.
+2020-03-18 17:37:56,347 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:37:56,351 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61170, server: localhost/127.0.0.1:27380
+2020-03-18 17:37:56,357 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.1
+2020-03-18 17:37:56,369 [myid:] - INFO  [SyncThread:0:ZKAuditProvider@42] - ZooKeeper audit is disabled.
+2020-03-18 17:37:56,373 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27380, session id = 0x100015c15290000, negotiated timeout = 30000
+2020-03-18 17:37:56,378 [myid:] - INFO  [main:JMXEnv@116] - expect:0x100015c15290000
+2020-03-18 17:37:56,378 [myid:] - INFO  [main:JMXEnv@119] - found:0x100015c15290000 org.apache.ZooKeeperService:name0=StandaloneServer_port27380,name1=Connections,name2=127.0.0.1,name3=0x100015c15290000
+2020-03-18 17:37:56,398 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27380 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@43a0cee9
+2020-03-18 17:37:56,398 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:37:56,398 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:37:56,400 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27380.
+2020-03-18 17:37:56,400 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:37:56,401 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61172, server: localhost/127.0.0.1:27380
+2020-03-18 17:37:56,402 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27380, session id = 0x100015c15290001, negotiated timeout = 30000
+2020-03-18 17:37:56,404 [myid:] - INFO  [main:JMXEnv@116] - expect:0x100015c15290001
+2020-03-18 17:37:56,405 [myid:] - INFO  [main:JMXEnv@119] - found:0x100015c15290001 org.apache.ZooKeeperService:name0=StandaloneServer_port27380,name1=Connections,name2=127.0.0.1,name3=0x100015c15290001
+2020-03-18 17:37:56,407 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27380 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@6eceb130
+2020-03-18 17:37:56,407 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:37:56,408 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:37:56,409 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27380.
+2020-03-18 17:37:56,409 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:37:56,410 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61173, server: localhost/127.0.0.1:27380
+2020-03-18 17:37:56,412 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27380, session id = 0x100015c15290002, negotiated timeout = 30000
+2020-03-18 17:37:56,414 [myid:] - INFO  [main:JMXEnv@116] - expect:0x100015c15290002
+2020-03-18 17:37:56,416 [myid:] - INFO  [main:JMXEnv@119] - found:0x100015c15290002 org.apache.ZooKeeperService:name0=StandaloneServer_port27380,name1=Connections,name2=127.0.0.1,name3=0x100015c15290002
+2020-03-18 17:37:56,420 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27380 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@954b04f
+2020-03-18 17:37:56,420 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:37:56,421 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:37:56,422 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27380.
+2020-03-18 17:37:56,422 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:37:56,423 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61174, server: localhost/127.0.0.1:27380
+2020-03-18 17:37:56,424 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27380, session id = 0x100015c15290003, negotiated timeout = 30000
+2020-03-18 17:37:56,428 [myid:] - INFO  [main:JMXEnv@116] - expect:0x100015c15290003
+2020-03-18 17:37:56,428 [myid:] - INFO  [main:JMXEnv@119] - found:0x100015c15290003 org.apache.ZooKeeperService:name0=StandaloneServer_port27380,name1=Connections,name2=127.0.0.1,name3=0x100015c15290003
+2020-03-18 17:37:56,430 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27380 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@78186a70
+2020-03-18 17:37:56,431 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:37:56,432 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:37:56,434 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27380.
+2020-03-18 17:37:56,434 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:37:56,434 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61175, server: localhost/127.0.0.1:27380
+2020-03-18 17:37:56,436 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27380, session id = 0x100015c15290004, negotiated timeout = 30000
+2020-03-18 17:37:56,441 [myid:] - INFO  [main:JMXEnv@116] - expect:0x100015c15290004
+2020-03-18 17:37:56,442 [myid:] - INFO  [main:JMXEnv@119] - found:0x100015c15290004 org.apache.ZooKeeperService:name0=StandaloneServer_port27380,name1=Connections,name2=127.0.0.1,name3=0x100015c15290004
+2020-03-18 17:37:56,444 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27380 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@548ad73b
+2020-03-18 17:37:56,444 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:37:56,444 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:37:56,446 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27380.
+2020-03-18 17:37:56,446 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:37:56,447 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61177, server: localhost/127.0.0.1:27380
+2020-03-18 17:37:56,449 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27380, session id = 0x100015c15290005, negotiated timeout = 30000
+2020-03-18 17:37:56,451 [myid:] - INFO  [main:JMXEnv@116] - expect:0x100015c15290005
+2020-03-18 17:37:56,451 [myid:] - INFO  [main:JMXEnv@119] - found:0x100015c15290005 org.apache.ZooKeeperService:name0=StandaloneServer_port27380,name1=Connections,name2=127.0.0.1,name3=0x100015c15290005
+2020-03-18 17:37:56,453 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27380 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@df27fae
+2020-03-18 17:37:56,454 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:37:56,454 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:37:56,456 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27380.
+2020-03-18 17:37:56,456 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:37:56,456 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61178, server: localhost/127.0.0.1:27380
+2020-03-18 17:37:56,458 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27380, session id = 0x100015c15290006, negotiated timeout = 30000
+2020-03-18 17:37:56,460 [myid:] - INFO  [main:JMXEnv@116] - expect:0x100015c15290006
+2020-03-18 17:37:56,460 [myid:] - INFO  [main:JMXEnv@119] - found:0x100015c15290006 org.apache.ZooKeeperService:name0=StandaloneServer_port27380,name1=Connections,name2=127.0.0.1,name3=0x100015c15290006
+2020-03-18 17:37:56,463 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27380 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@fcd6521
+2020-03-18 17:37:56,467 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:37:56,474 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:37:56,477 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27380.
+2020-03-18 17:37:56,477 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:37:56,477 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61180, server: localhost/127.0.0.1:27380
+2020-03-18 17:37:56,480 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27380, session id = 0x100015c15290007, negotiated timeout = 30000
+2020-03-18 17:37:56,482 [myid:] - INFO  [main:JMXEnv@116] - expect:0x100015c15290007
+2020-03-18 17:37:56,482 [myid:] - INFO  [main:JMXEnv@119] - found:0x100015c15290007 org.apache.ZooKeeperService:name0=StandaloneServer_port27380,name1=Connections,name2=127.0.0.1,name3=0x100015c15290007
+2020-03-18 17:37:56,485 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27380 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@5204062d
+2020-03-18 17:37:56,487 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:37:56,488 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:37:56,490 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27380.
+2020-03-18 17:37:56,490 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:37:56,490 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61181, server: localhost/127.0.0.1:27380
+2020-03-18 17:37:56,493 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27380, session id = 0x100015c15290008, negotiated timeout = 30000
+2020-03-18 17:37:56,495 [myid:] - INFO  [main:JMXEnv@116] - expect:0x100015c15290008
+2020-03-18 17:37:56,495 [myid:] - INFO  [main:JMXEnv@119] - found:0x100015c15290008 org.apache.ZooKeeperService:name0=StandaloneServer_port27380,name1=Connections,name2=127.0.0.1,name3=0x100015c15290008
+2020-03-18 17:37:56,497 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27380 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@7a36aefa
+2020-03-18 17:37:56,497 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:37:56,499 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:37:56,504 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27380.
+2020-03-18 17:37:56,504 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:37:56,504 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61182, server: localhost/127.0.0.1:27380
+2020-03-18 17:37:56,506 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27380, session id = 0x100015c15290009, negotiated timeout = 30000
+2020-03-18 17:37:56,512 [myid:] - INFO  [main:JMXEnv@116] - expect:0x100015c15290009
+2020-03-18 17:37:56,512 [myid:] - INFO  [main:JMXEnv@119] - found:0x100015c15290009 org.apache.ZooKeeperService:name0=StandaloneServer_port27380,name1=Connections,name2=127.0.0.1,name3=0x100015c15290009
+2020-03-18 17:37:56,516 [myid:] - INFO  [main:ClientHammerTest@188] - Starting check for completed hammers
+2020-03-18 17:38:04,509 [myid:127.0.0.1:27380] - WARN  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1266] - An exception was thrown while closing send thread for session 0x100015c15290000.
+EndOfStreamException: Unable to read additional data from server sessionid 0x100015c15290000, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+2020-03-18 17:38:04,767 [myid:127.0.0.1:27380] - WARN  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1266] - An exception was thrown while closing send thread for session 0x100015c15290004.
+EndOfStreamException: Unable to read additional data from server sessionid 0x100015c15290004, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+2020-03-18 17:38:04,767 [myid:127.0.0.1:27380] - WARN  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1266] - An exception was thrown while closing send thread for session 0x100015c15290002.
+EndOfStreamException: Unable to read additional data from server sessionid 0x100015c15290002, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+2020-03-18 17:38:04,767 [myid:] - INFO  [BasicHammerThread-3:ZooKeeper@1618] - Session: 0x100015c15290003 closed
+2020-03-18 17:38:04,767 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c15290003
+2020-03-18 17:38:04,869 [myid:] - INFO  [BasicHammerThread-1:ZooKeeper@1618] - Session: 0x100015c15290001 closed
+2020-03-18 17:38:04,869 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c15290001
+2020-03-18 17:38:04,969 [myid:] - INFO  [BasicHammerThread-0:ZooKeeper@1618] - Session: 0x100015c15290000 closed
+2020-03-18 17:38:04,969 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c15290000
+2020-03-18 17:38:05,070 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c15290008
+2020-03-18 17:38:05,070 [myid:] - INFO  [BasicHammerThread-8:ZooKeeper@1618] - Session: 0x100015c15290008 closed
+2020-03-18 17:38:05,172 [myid:] - INFO  [BasicHammerThread-9:ZooKeeper@1618] - Session: 0x100015c15290009 closed
+2020-03-18 17:38:05,172 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c15290009
+2020-03-18 17:38:05,272 [myid:] - INFO  [BasicHammerThread-6:ZooKeeper@1618] - Session: 0x100015c15290006 closed
+2020-03-18 17:38:05,272 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c15290006
+2020-03-18 17:38:05,377 [myid:] - INFO  [BasicHammerThread-7:ZooKeeper@1618] - Session: 0x100015c15290007 closed
+2020-03-18 17:38:05,377 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c15290007
+2020-03-18 17:38:05,477 [myid:] - INFO  [BasicHammerThread-5:ZooKeeper@1618] - Session: 0x100015c15290005 closed
+2020-03-18 17:38:05,477 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c15290005
+2020-03-18 17:38:05,578 [myid:] - INFO  [BasicHammerThread-2:ZooKeeper@1618] - Session: 0x100015c15290002 closed
+2020-03-18 17:38:05,578 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c15290002
+2020-03-18 17:38:05,680 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c15290004
+2020-03-18 17:38:05,680 [myid:] - INFO  [BasicHammerThread-4:ZooKeeper@1618] - Session: 0x100015c15290004 closed
+2020-03-18 17:38:06,520 [myid:] - INFO  [main:ClientHammerTest@207] - Hammer threads completed creation operations
+2020-03-18 17:38:06,524 [myid:] - INFO  [main:ClientHammerTest@217] - Wed Mar 18 17:38:06 CST 2020 Total time 10212
+2020-03-18 17:38:06,525 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27380 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@6fb0d3ed
+2020-03-18 17:38:06,525 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:06,525 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:06,528 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27380.
+2020-03-18 17:38:06,528 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:06,528 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61844, server: localhost/127.0.0.1:27380
+2020-03-18 17:38:06,531 [myid:127.0.0.1:27380] - INFO  [main-SendThread(127.0.0.1:27380):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27380, session id = 0x100015c1529000a, negotiated timeout = 30000
+2020-03-18 17:38:06,532 [myid:] - INFO  [main:JMXEnv@116] - expect:0x100015c1529000a
+2020-03-18 17:38:06,532 [myid:] - INFO  [main:JMXEnv@119] - found:0x100015c1529000a org.apache.ZooKeeperService:name0=StandaloneServer_port27380,name1=Connections,name2=127.0.0.1,name3=0x100015c1529000a
+2020-03-18 17:38:06,533 [myid:] - INFO  [main:ClientHammerTest@221] - ******************* Connected to ZooKeeperWed Mar 18 17:38:06 CST 2020
+2020-03-18 17:38:06,533 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 0 Wed Mar 18 17:38:06 CST 2020
+2020-03-18 17:38:06,541 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 1 Wed Mar 18 17:38:06 CST 2020
+2020-03-18 17:38:06,543 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 2 Wed Mar 18 17:38:06 CST 2020
+2020-03-18 17:38:06,546 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 3 Wed Mar 18 17:38:06 CST 2020
+2020-03-18 17:38:06,548 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 4 Wed Mar 18 17:38:06 CST 2020
+2020-03-18 17:38:06,554 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 5 Wed Mar 18 17:38:06 CST 2020
+2020-03-18 17:38:06,556 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 6 Wed Mar 18 17:38:06 CST 2020
+2020-03-18 17:38:06,558 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 7 Wed Mar 18 17:38:06 CST 2020
+2020-03-18 17:38:06,560 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 8 Wed Mar 18 17:38:06 CST 2020
+2020-03-18 17:38:06,562 [myid:] - INFO  [main:ClientHammerTest@223] - Doing thread: 9 Wed Mar 18 17:38:06 CST 2020
+2020-03-18 17:38:06,695 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c1529000a
+2020-03-18 17:38:06,695 [myid:] - INFO  [main:ZooKeeper@1618] - Session: 0x100015c1529000a closed
+2020-03-18 17:38:06,701 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@89] - Memory used 17143
+2020-03-18 17:38:06,701 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@94] - Number of threads 30
+2020-03-18 17:38:06,701 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@109] - FINISHED TEST METHOD testHammerBasic
+2020-03-18 17:38:06,701 [myid:] - INFO  [main:ClientBase@583] - tearDown starting
+2020-03-18 17:38:06,702 [myid:] - INFO  [main:ClientBase@557] - STOPPING server
+2020-03-18 17:38:06,702 [myid:] - INFO  [ConnnectionExpirer:NIOServerCnxnFactory$ConnectionExpirerThread@578] - ConnnectionExpirerThread interrupted
+2020-03-18 17:38:06,702 [myid:] - INFO  [NIOServerCxnFactory.AcceptThread:0.0.0.0/0.0.0.0:27380:NIOServerCnxnFactory$AcceptThread@209] - accept thread exitted run method
+2020-03-18 17:38:06,702 [myid:] - INFO  [NIOServerCxnFactory.SelectorThread-0:NIOServerCnxnFactory$SelectorThread@411] - selector thread exitted run method
+2020-03-18 17:38:06,703 [myid:] - INFO  [main:ZooKeeperServer@784] - shutting down
+2020-03-18 17:38:06,703 [myid:] - INFO  [main:RequestThrottler@244] - Shutting down
+2020-03-18 17:38:06,703 [myid:] - INFO  [RequestThrottler:RequestThrottler@205] - Draining request throttler queue
+2020-03-18 17:38:06,703 [myid:] - INFO  [RequestThrottler:RequestThrottler@181] - RequestThrottler shutdown. Dropped 0 requests
+2020-03-18 17:38:06,703 [myid:] - INFO  [main:SessionTrackerImpl@247] - Shutting down
+2020-03-18 17:38:06,703 [myid:] - INFO  [main:PrepRequestProcessor@1047] - Shutting down
+2020-03-18 17:38:06,704 [myid:] - INFO  [ProcessThread(sid:0 cport:27380)::PrepRequestProcessor@159] - PrepRequestProcessor exited loop!
+2020-03-18 17:38:06,704 [myid:] - INFO  [main:SyncRequestProcessor@256] - Shutting down
+2020-03-18 17:38:06,704 [myid:] - INFO  [SyncThread:0:SyncRequestProcessor@225] - SyncRequestProcessor exited!
+2020-03-18 17:38:06,704 [myid:] - INFO  [main:FinalRequestProcessor@662] - shutdown of request processor complete
+2020-03-18 17:38:07,035 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 27380
+2020-03-18 17:38:07,035 [myid:] - INFO  [main:JMXEnv@142] - ensureOnly:[]
+2020-03-18 17:38:07,041 [myid:] - INFO  [main:ClientBase@607] - fdcount after test is: 89 at start it was 76
+2020-03-18 17:38:07,041 [myid:] - INFO  [main:ClientBase@609] - sleeping for 20 secs
+2020-03-18 17:38:07,042 [myid:] - INFO  [main:ZKTestCase$1@96] - SUCCEEDED testHammerBasic
+2020-03-18 17:38:07,042 [myid:] - INFO  [main:ZKTestCase$1@91] - FINISHED testHammerBasic
+2020-03-18 17:38:07,043 [myid:] - INFO  [main:PortAssignment@87] - Assigned port 27381 from range 27379 - 30071.
+2020-03-18 17:38:07,044 [myid:] - INFO  [main:ZKTestCase$1@86] - STARTING testHammerSuper
+2020-03-18 17:38:07,044 [myid:] - INFO  [main:ClientBase@486] - Initial fdcount is: 89
+2020-03-18 17:38:07,045 [myid:] - INFO  [main:JMXEnv@58] - connecting to addr service:jmx:rmi://127.0.0.1/stub/rO0ABXNyAC5qYXZheC5tYW5hZ2VtZW50LnJlbW90ZS5ybWkuUk1JU2VydmVySW1wbF9TdHViAAAAAAAAAAICAAB4cgAaamF2YS5ybWkuc2VydmVyLlJlbW90ZVN0dWLp/tzJi+FlGgIAAHhyABxqYXZhLnJtaS5zZXJ2ZXIuUmVtb3RlT2JqZWN002G0kQxhMx4DAAB4cHc3AAtVbmljYXN0UmVmMgAADDE3Mi4xOC4xNC4zNAAA7nuN//TONPKMLJTLa3cAAAFw7QGtzYAXAHg=
+2020-03-18 17:38:07,057 [myid:] - INFO  [main:ClientBase@514] - STARTING server
+2020-03-18 17:38:07,058 [myid:] - INFO  [main:ClientBase@423] - CREATING server instance 127.0.0.1:27381
+2020-03-18 17:38:07,058 [myid:] - INFO  [main:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-03-18 17:38:07,058 [myid:] - WARN  [main:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2020-03-18 17:38:07,058 [myid:] - INFO  [main:NIOServerCnxnFactory@666] - Configuring NIO connection handler with 10s sessionless connection timeout, 1 selector thread(s), 8 worker threads, and 64 kB direct buffers.
+2020-03-18 17:38:07,059 [myid:] - INFO  [main:NIOServerCnxnFactory@674] - binding to port 0.0.0.0/0.0.0.0:27381
+2020-03-18 17:38:07,059 [myid:] - INFO  [main:ClientBase@395] - STARTING server instance 127.0.0.1:27381
+2020-03-18 17:38:07,059 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-03-18 17:38:07,060 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-03-18 17:38:07,060 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-03-18 17:38:07,060 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-03-18 17:38:07,061 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-03-18 17:38:07,061 [myid:] - INFO  [main:ZooKeeperServer@1246] - minSessionTimeout set to 6000
+2020-03-18 17:38:07,061 [myid:] - INFO  [main:ZooKeeperServer@1255] - maxSessionTimeout set to 60000
+2020-03-18 17:38:07,061 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-03-18 17:38:07,062 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-03-18 17:38:07,063 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-03-18 17:38:07,064 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-03-18 17:38:07,064 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-03-18 17:38:07,064 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-03-18 17:38:07,065 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-03-18 17:38:07,067 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-03-18 17:38:07,067 [myid:] - INFO  [main:ZooKeeperServer@1470] - The max bytes for all large requests are set to 104857600
+2020-03-18 17:38:07,067 [myid:] - INFO  [main:ZooKeeperServer@1484] - The large request threshold is set to -1
+2020-03-18 17:38:07,068 [myid:] - INFO  [main:ZooKeeperServer@329] - Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 clientPortListenBacklog -1 datadir /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test1742138906282424895.junit.dir/version-2 snapdir /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test1742138906282424895.junit.dir/version-2
+2020-03-18 17:38:07,069 [myid:] - INFO  [main:FileTxnSnapLog@251] - Initialize file found, an empty database will not block voting participation
+2020-03-18 17:38:07,070 [myid:] - INFO  [main:FileTxnSnapLog@470] - Snapshotting: 0x0 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test1742138906282424895.junit.dir/version-2/snapshot.0
+2020-03-18 17:38:07,073 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 4 ms, highest zxid is 0x0, digest is 1371985504
+2020-03-18 17:38:07,074 [myid:] - INFO  [main:FileTxnSnapLog@470] - Snapshotting: 0x0 to /Users/liaosheng/project/apache-zookeeper-3.6.0/zookeeper-server/target/surefire/test1742138906282424895.junit.dir/version-2/snapshot.0
+2020-03-18 17:38:07,074 [myid:] - INFO  [main:ZooKeeperServer@519] - Snapshot taken in 1 ms
+2020-03-18 17:38:07,077 [myid:] - INFO  [main:FourLetterWordMain@93] - connecting to 127.0.0.1 27381
+2020-03-18 17:38:07,079 [myid:] - INFO  [NIOWorkerThread-1:NIOServerCnxn@507] - Processing stat command from /127.0.0.1:61866
+2020-03-18 17:38:07,080 [myid:] - INFO  [NIOWorkerThread-1:StatCommand@52] - Stat command output
+2020-03-18 17:38:07,080 [myid:] - INFO  [main:JMXEnv@219] - ensureParent:[InMemoryDataTree, StandaloneServer_port]
+2020-03-18 17:38:07,082 [myid:] - INFO  [main:JMXEnv@235] - expect:InMemoryDataTree
+2020-03-18 17:38:07,082 [myid:] - INFO  [main:JMXEnv@239] - found:InMemoryDataTree org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=InMemoryDataTree
+2020-03-18 17:38:07,082 [myid:] - INFO  [main:JMXEnv@235] - expect:StandaloneServer_port
+2020-03-18 17:38:07,268 [myid:] - INFO  [main:JMXEnv@239] - found:StandaloneServer_port org.apache.ZooKeeperService:name0=StandaloneServer_port27381
+2020-03-18 17:38:07,269 [myid:] - INFO  [main:ClientBase@501] - Client test setup finished
+2020-03-18 17:38:07,269 [myid:] - INFO  [main:JUnit4ZKTestRunner$LoggedInvokeMethod@84] - RUNNING TEST METHOD testHammerSuper
+2020-03-18 17:38:07,269 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@7f416310
+2020-03-18 17:38:07,275 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:07,276 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:07,278 [myid:127.0.0.1:27381] - INFO  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:07,278 [myid:127.0.0.1:27381] - INFO  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:07,278 [myid:127.0.0.1:27381] - INFO  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61872, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:07,280 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.1
+2020-03-18 17:38:07,282 [myid:127.0.0.1:27381] - INFO  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0000, negotiated timeout = 30000
+2020-03-18 17:38:07,284 [myid:] - INFO  [main:JMXEnv@116] - expect:0x100015c3fae0000
+2020-03-18 17:38:07,284 [myid:] - INFO  [main:JMXEnv@119] - found:0x100015c3fae0000 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0000
+2020-03-18 17:38:07,289 [myid:127.0.0.1:27381] - WARN  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1266] - An exception was thrown while closing send thread for session 0x100015c3fae0000.
+EndOfStreamException: Unable to read additional data from server sessionid 0x100015c3fae0000, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+2020-03-18 17:38:07,392 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0000
+2020-03-18 17:38:07,392 [myid:] - INFO  [main:ZooKeeper@1618] - Session: 0x100015c3fae0000 closed
+2020-03-18 17:38:07,393 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@59f43c2f
+2020-03-18 17:38:07,393 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@60438a68
+2020-03-18 17:38:07,394 [myid:] - INFO  [SuperHammerThread-0:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:07,394 [myid:] - INFO  [SuperHammerThread-0:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:07,395 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:07,395 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:07,396 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:07,396 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:07,397 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61874, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:07,397 [myid:127.0.0.1:27381] - INFO  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:07,397 [myid:127.0.0.1:27381] - INFO  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:07,398 [myid:127.0.0.1:27381] - INFO  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61875, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:07,399 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0001, negotiated timeout = 30000
+2020-03-18 17:38:07,399 [myid:127.0.0.1:27381] - INFO  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0002, negotiated timeout = 30000
+2020-03-18 17:38:07,402 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@116] - expect:0x100015c3fae0001
+2020-03-18 17:38:07,402 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@119] - found:0x100015c3fae0001 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0001
+2020-03-18 17:38:07,404 [myid:] - INFO  [main:JMXEnv@116] - expect:0x100015c3fae0002
+2020-03-18 17:38:07,405 [myid:] - INFO  [main:JMXEnv@119] - found:0x100015c3fae0002 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0002
+2020-03-18 17:38:07,509 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1618] - Session: 0x100015c3fae0001 closed
+2020-03-18 17:38:07,509 [myid:] - INFO  [SuperHammerThread-0-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0001
+2020-03-18 17:38:07,510 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@78e6c95b
+2020-03-18 17:38:07,610 [myid:] - INFO  [main:ZooKeeper@1618] - Session: 0x100015c3fae0002 closed
+2020-03-18 17:38:07,610 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0002
+2020-03-18 17:38:07,617 [myid:] - INFO  [SuperHammerThread-0:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:07,618 [myid:] - INFO  [SuperHammerThread-0:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:07,622 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@17695df3
+2020-03-18 17:38:07,622 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@1eadcf8b
+2020-03-18 17:38:07,622 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:07,623 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:07,623 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:07,622 [myid:] - INFO  [SuperHammerThread-1:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:07,623 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:07,625 [myid:127.0.0.1:27381] - INFO  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:07,625 [myid:127.0.0.1:27381] - INFO  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:07,625 [myid:127.0.0.1:27381] - INFO  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61881, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:07,626 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61880, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:07,626 [myid:] - INFO  [SuperHammerThread-1:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:07,628 [myid:127.0.0.1:27381] - INFO  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0003, negotiated timeout = 30000
+2020-03-18 17:38:07,629 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0004, negotiated timeout = 30000
+2020-03-18 17:38:07,629 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:07,629 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:07,629 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61882, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:07,630 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@116] - expect:0x100015c3fae0004
+2020-03-18 17:38:07,630 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@119] - found:0x100015c3fae0004 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0004
+2020-03-18 17:38:07,631 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0005, negotiated timeout = 30000
+2020-03-18 17:38:07,632 [myid:] - INFO  [main:JMXEnv@116] - expect:0x100015c3fae0003
+2020-03-18 17:38:07,632 [myid:] - INFO  [main:JMXEnv@119] - found:0x100015c3fae0003 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0003
+2020-03-18 17:38:07,634 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@116] - expect:0x100015c3fae0005
+2020-03-18 17:38:07,634 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@119] - found:0x100015c3fae0005 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0005
+2020-03-18 17:38:07,637 [myid:127.0.0.1:27381] - WARN  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1266] - An exception was thrown while closing send thread for session 0x100015c3fae0003.
+EndOfStreamException: Unable to read additional data from server sessionid 0x100015c3fae0003, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+2020-03-18 17:38:07,734 [myid:] - INFO  [SuperHammerThread-0-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0004
+2020-03-18 17:38:07,734 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1618] - Session: 0x100015c3fae0004 closed
+2020-03-18 17:38:07,735 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@357b8ecf
+2020-03-18 17:38:07,735 [myid:] - INFO  [SuperHammerThread-0:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:07,735 [myid:] - INFO  [SuperHammerThread-0:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:07,737 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:07,737 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:07,739 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61888, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:07,739 [myid:] - INFO  [main:ZooKeeper@1618] - Session: 0x100015c3fae0003 closed
+2020-03-18 17:38:07,739 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0003
+2020-03-18 17:38:07,740 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@2df32bf7
+2020-03-18 17:38:07,740 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@231555a3
+2020-03-18 17:38:07,740 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0006, negotiated timeout = 30000
+2020-03-18 17:38:07,741 [myid:] - INFO  [SuperHammerThread-2:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:07,741 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:07,741 [myid:] - INFO  [SuperHammerThread-2:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:07,742 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@116] - expect:0x100015c3fae0006
+2020-03-18 17:38:07,742 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:07,742 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@119] - found:0x100015c3fae0006 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0006
+2020-03-18 17:38:07,744 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:07,745 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:07,746 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61889, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:07,746 [myid:127.0.0.1:27381] - INFO  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:07,747 [myid:127.0.0.1:27381] - INFO  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:07,747 [myid:127.0.0.1:27381] - INFO  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61890, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:07,748 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0007, negotiated timeout = 30000
+2020-03-18 17:38:07,748 [myid:127.0.0.1:27381] - INFO  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0008, negotiated timeout = 30000
+2020-03-18 17:38:07,749 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@116] - expect:0x100015c3fae0007
+2020-03-18 17:38:07,749 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@119] - found:0x100015c3fae0007 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0007
+2020-03-18 17:38:07,751 [myid:] - INFO  [main:JMXEnv@116] - expect:0x100015c3fae0008
+2020-03-18 17:38:07,751 [myid:] - INFO  [main:JMXEnv@119] - found:0x100015c3fae0008 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0008
+2020-03-18 17:38:07,756 [myid:127.0.0.1:27381] - WARN  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1266] - An exception was thrown while closing send thread for session 0x100015c3fae0008.
+EndOfStreamException: Unable to read additional data from server sessionid 0x100015c3fae0008, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+2020-03-18 17:38:07,835 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1618] - Session: 0x100015c3fae0005 closed
+2020-03-18 17:38:07,835 [myid:] - INFO  [SuperHammerThread-1-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0005
+2020-03-18 17:38:07,836 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@3fbf3aff
+2020-03-18 17:38:07,848 [myid:] - INFO  [SuperHammerThread-1:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:07,848 [myid:] - INFO  [SuperHammerThread-1:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:07,850 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:07,850 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:07,851 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61892, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:07,852 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0009, negotiated timeout = 30000
+2020-03-18 17:38:07,853 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@116] - expect:0x100015c3fae0009
+2020-03-18 17:38:07,853 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@119] - found:0x100015c3fae0009 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0009
+2020-03-18 17:38:07,937 [myid:] - INFO  [main:ZooKeeper@1618] - Session: 0x100015c3fae0008 closed
+2020-03-18 17:38:07,937 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0008
+2020-03-18 17:38:07,938 [myid:] - INFO  [main:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@58a90037
+2020-03-18 17:38:07,938 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@2c85dd82
+2020-03-18 17:38:07,938 [myid:] - INFO  [main:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:07,938 [myid:] - INFO  [SuperHammerThread-3:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:07,938 [myid:] - INFO  [main:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:07,938 [myid:] - INFO  [SuperHammerThread-3:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:08,033 [myid:127.0.0.1:27381] - INFO  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:08,033 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:08,033 [myid:127.0.0.1:27381] - INFO  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:08,033 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:08,034 [myid:127.0.0.1:27381] - INFO  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61898, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:08,034 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61899, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:08,035 [myid:127.0.0.1:27381] - INFO  [main-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae000a, negotiated timeout = 30000
+2020-03-18 17:38:08,035 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae000b, negotiated timeout = 30000
+2020-03-18 17:38:08,036 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@116] - expect:0x100015c3fae000b
+2020-03-18 17:38:08,036 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@119] - found:0x100015c3fae000b org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae000b
+2020-03-18 17:38:08,037 [myid:] - INFO  [SuperHammerThread-2-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0007
+2020-03-18 17:38:08,037 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1618] - Session: 0x100015c3fae0007 closed
+2020-03-18 17:38:08,051 [myid:127.0.0.1:27381] - WARN  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1266] - An exception was thrown while closing send thread for session 0x100015c3fae000b.
+EndOfStreamException: Unable to read additional data from server sessionid 0x100015c3fae000b, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+2020-03-18 17:38:08,051 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@2273ff9e
+2020-03-18 17:38:08,052 [myid:] - INFO  [SuperHammerThread-2:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:08,052 [myid:] - INFO  [SuperHammerThread-2:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:08,052 [myid:] - INFO  [main:JMXEnv@116] - expect:0x100015c3fae000a
+2020-03-18 17:38:08,053 [myid:] - INFO  [main:JMXEnv@119] - found:0x100015c3fae000a org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae000a
+2020-03-18 17:38:08,054 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:08,054 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:08,055 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61900, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:08,057 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae000c, negotiated timeout = 30000
+2020-03-18 17:38:08,058 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@116] - expect:0x100015c3fae000c
+2020-03-18 17:38:08,058 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@119] - found:0x100015c3fae000c org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae000c
+2020-03-18 17:38:08,138 [myid:] - INFO  [SuperHammerThread-0-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0006
+2020-03-18 17:38:08,138 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1618] - Session: 0x100015c3fae0006 closed
+2020-03-18 17:38:08,138 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@27e369c0
+2020-03-18 17:38:08,139 [myid:] - INFO  [SuperHammerThread-0:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:08,139 [myid:] - INFO  [SuperHammerThread-0:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:08,140 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:08,140 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:08,141 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61903, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:08,142 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae000d, negotiated timeout = 30000
+2020-03-18 17:38:08,143 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@116] - expect:0x100015c3fae000d
+2020-03-18 17:38:08,143 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@119] - found:0x100015c3fae000d org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae000d
+2020-03-18 17:38:08,146 [myid:127.0.0.1:27381] - WARN  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1266] - An exception was thrown while closing send thread for session 0x100015c3fae000d.
+EndOfStreamException: Unable to read additional data from server sessionid 0x100015c3fae000d, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+2020-03-18 17:38:08,238 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1618] - Session: 0x100015c3fae000c closed
+2020-03-18 17:38:08,238 [myid:] - INFO  [SuperHammerThread-2-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae000c
+2020-03-18 17:38:08,238 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@649de71
+2020-03-18 17:38:08,239 [myid:] - INFO  [SuperHammerThread-2:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:08,239 [myid:] - INFO  [SuperHammerThread-2:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:08,247 [myid:] - INFO  [SessionTracker:SessionTrackerImpl@170] - SessionTrackerImpl exited loop!
+2020-03-18 17:38:08,267 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:08,267 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:08,268 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61908, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:08,278 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae000e, negotiated timeout = 30000
+2020-03-18 17:38:08,280 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@116] - expect:0x100015c3fae000e
+2020-03-18 17:38:08,280 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@119] - found:0x100015c3fae000e org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae000e
+2020-03-18 17:38:08,338 [myid:] - INFO  [main:ZooKeeper@1618] - Session: 0x100015c3fae000a closed
+2020-03-18 17:38:08,338 [myid:] - INFO  [main-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae000a
+2020-03-18 17:38:08,339 [myid:] - INFO  [main:ClientHammerTest@188] - Starting check for completed hammers
+2020-03-18 17:38:08,339 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@4fc622bc
+2020-03-18 17:38:08,339 [myid:] - INFO  [SuperHammerThread-4:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:08,340 [myid:] - INFO  [SuperHammerThread-4:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:08,341 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:08,341 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:08,342 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61909, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:08,343 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae000f, negotiated timeout = 30000
+2020-03-18 17:38:08,344 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@116] - expect:0x100015c3fae000f
+2020-03-18 17:38:08,344 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@119] - found:0x100015c3fae000f org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae000f
+2020-03-18 17:38:08,439 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1618] - Session: 0x100015c3fae000b closed
+2020-03-18 17:38:08,439 [myid:] - INFO  [SuperHammerThread-3-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae000b
+2020-03-18 17:38:08,439 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@26b93687
+2020-03-18 17:38:08,439 [myid:] - INFO  [SuperHammerThread-3:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:08,440 [myid:] - INFO  [SuperHammerThread-3:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:08,441 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:08,442 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:08,442 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61914, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:08,443 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0010, negotiated timeout = 30000
+2020-03-18 17:38:08,444 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@116] - expect:0x100015c3fae0010
+2020-03-18 17:38:08,445 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@119] - found:0x100015c3fae0010 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0010
+2020-03-18 17:38:08,544 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1618] - Session: 0x100015c3fae0009 closed
+2020-03-18 17:38:08,544 [myid:] - INFO  [SuperHammerThread-1-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0009
+2020-03-18 17:38:08,544 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@355f6680
+2020-03-18 17:38:08,545 [myid:] - INFO  [SuperHammerThread-1:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:08,546 [myid:] - INFO  [SuperHammerThread-1:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:08,548 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:08,548 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:08,548 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61921, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:08,549 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0011, negotiated timeout = 30000
+2020-03-18 17:38:08,550 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@116] - expect:0x100015c3fae0011
+2020-03-18 17:38:08,550 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@119] - found:0x100015c3fae0011 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0011
+2020-03-18 17:38:08,647 [myid:] - INFO  [SuperHammerThread-3-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0010
+2020-03-18 17:38:08,647 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1618] - Session: 0x100015c3fae0010 closed
+2020-03-18 17:38:08,648 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@9d951d8
+2020-03-18 17:38:08,649 [myid:] - INFO  [SuperHammerThread-3:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:08,649 [myid:] - INFO  [SuperHammerThread-3:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:08,650 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:08,651 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:08,651 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61924, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:08,652 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0012, negotiated timeout = 30000
+2020-03-18 17:38:08,653 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@116] - expect:0x100015c3fae0012
+2020-03-18 17:38:08,653 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@119] - found:0x100015c3fae0012 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0012
+2020-03-18 17:38:08,749 [myid:] - INFO  [SuperHammerThread-4-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae000f
+2020-03-18 17:38:08,749 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1618] - Session: 0x100015c3fae000f closed
+2020-03-18 17:38:08,750 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@39bc7f68
+2020-03-18 17:38:08,750 [myid:] - INFO  [SuperHammerThread-4:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:08,750 [myid:] - INFO  [SuperHammerThread-4:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:08,752 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:08,752 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:08,752 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61929, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:08,754 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0013, negotiated timeout = 30000
+2020-03-18 17:38:08,755 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@116] - expect:0x100015c3fae0013
+2020-03-18 17:38:08,755 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@119] - found:0x100015c3fae0013 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0013
+2020-03-18 17:38:08,853 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1618] - Session: 0x100015c3fae000e closed
+2020-03-18 17:38:08,853 [myid:] - INFO  [SuperHammerThread-2-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae000e
+2020-03-18 17:38:08,853 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@45c08498
+2020-03-18 17:38:08,854 [myid:] - INFO  [SuperHammerThread-2:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:08,854 [myid:] - INFO  [SuperHammerThread-2:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:08,856 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:08,856 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:08,856 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61934, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:08,857 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0014, negotiated timeout = 30000
+2020-03-18 17:38:08,858 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@116] - expect:0x100015c3fae0014
+2020-03-18 17:38:08,858 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@119] - found:0x100015c3fae0014 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0014
+2020-03-18 17:38:08,953 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1618] - Session: 0x100015c3fae000d closed
+2020-03-18 17:38:08,953 [myid:] - INFO  [SuperHammerThread-0-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae000d
+2020-03-18 17:38:08,953 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@4ab69ae2
+2020-03-18 17:38:08,954 [myid:] - INFO  [SuperHammerThread-0:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:08,955 [myid:] - INFO  [SuperHammerThread-0:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:08,957 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:08,957 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:08,957 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61937, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:08,959 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0015, negotiated timeout = 30000
+2020-03-18 17:38:08,960 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@116] - expect:0x100015c3fae0015
+2020-03-18 17:38:08,960 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@119] - found:0x100015c3fae0015 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0015
+2020-03-18 17:38:09,054 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1618] - Session: 0x100015c3fae0014 closed
+2020-03-18 17:38:09,054 [myid:] - INFO  [SuperHammerThread-2-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0014
+2020-03-18 17:38:09,054 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@54aaa294
+2020-03-18 17:38:09,055 [myid:] - INFO  [SuperHammerThread-2:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:09,055 [myid:] - INFO  [SuperHammerThread-2:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:09,056 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:09,057 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:09,057 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61944, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:09,058 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0016, negotiated timeout = 30000
+2020-03-18 17:38:09,059 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@116] - expect:0x100015c3fae0016
+2020-03-18 17:38:09,059 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@119] - found:0x100015c3fae0016 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0016
+2020-03-18 17:38:09,154 [myid:] - INFO  [SuperHammerThread-4-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0013
+2020-03-18 17:38:09,154 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1618] - Session: 0x100015c3fae0013 closed
+2020-03-18 17:38:09,155 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@6a9a4da5
+2020-03-18 17:38:09,155 [myid:] - INFO  [SuperHammerThread-4:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:09,155 [myid:] - INFO  [SuperHammerThread-4:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:09,157 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:09,157 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:09,158 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61949, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:09,159 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0017, negotiated timeout = 30000
+2020-03-18 17:38:09,160 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@116] - expect:0x100015c3fae0017
+2020-03-18 17:38:09,160 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@119] - found:0x100015c3fae0017 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0017
+2020-03-18 17:38:09,254 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1618] - Session: 0x100015c3fae0012 closed
+2020-03-18 17:38:09,254 [myid:] - INFO  [SuperHammerThread-3-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0012
+2020-03-18 17:38:09,255 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@2099432b
+2020-03-18 17:38:09,255 [myid:] - INFO  [SuperHammerThread-3:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:09,255 [myid:] - INFO  [SuperHammerThread-3:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:09,258 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:09,258 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:09,258 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61953, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:09,259 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0018, negotiated timeout = 30000
+2020-03-18 17:38:09,260 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@116] - expect:0x100015c3fae0018
+2020-03-18 17:38:09,260 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@119] - found:0x100015c3fae0018 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0018
+2020-03-18 17:38:09,358 [myid:] - INFO  [SuperHammerThread-1-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0011
+2020-03-18 17:38:09,358 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1618] - Session: 0x100015c3fae0011 closed
+2020-03-18 17:38:09,358 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@692984d
+2020-03-18 17:38:09,359 [myid:] - INFO  [SuperHammerThread-1:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:09,359 [myid:] - INFO  [SuperHammerThread-1:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:09,361 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:09,361 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:09,361 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61958, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:09,362 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0019, negotiated timeout = 30000
+2020-03-18 17:38:09,363 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@116] - expect:0x100015c3fae0019
+2020-03-18 17:38:09,363 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@119] - found:0x100015c3fae0019 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0019
+2020-03-18 17:38:09,462 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1618] - Session: 0x100015c3fae0018 closed
+2020-03-18 17:38:09,462 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@6ad00f3d
+2020-03-18 17:38:09,463 [myid:] - INFO  [SuperHammerThread-3:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:09,463 [myid:] - INFO  [SuperHammerThread-3:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:09,463 [myid:] - INFO  [SuperHammerThread-3-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0018
+2020-03-18 17:38:09,563 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1618] - Session: 0x100015c3fae0017 closed
+2020-03-18 17:38:09,563 [myid:] - INFO  [SuperHammerThread-4-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0017
+2020-03-18 17:38:09,563 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@38ec4078
+2020-03-18 17:38:09,564 [myid:] - INFO  [SuperHammerThread-4:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:09,564 [myid:] - INFO  [SuperHammerThread-4:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:09,588 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:09,588 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:09,588 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:09,589 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:09,589 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61961, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:09,589 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61962, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:09,591 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae001a, negotiated timeout = 30000
+2020-03-18 17:38:09,591 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae001b, negotiated timeout = 30000
+2020-03-18 17:38:09,592 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@116] - expect:0x100015c3fae001a
+2020-03-18 17:38:09,592 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@119] - found:0x100015c3fae001a org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae001a
+2020-03-18 17:38:09,593 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@116] - expect:0x100015c3fae001b
+2020-03-18 17:38:09,593 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@119] - found:0x100015c3fae001b org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae001b
+2020-03-18 17:38:09,600 [myid:127.0.0.1:27381] - WARN  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1266] - An exception was thrown while closing send thread for session 0x100015c3fae001a.
+EndOfStreamException: Unable to read additional data from server sessionid 0x100015c3fae001a, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+2020-03-18 17:38:09,665 [myid:] - INFO  [SuperHammerThread-2-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0016
+2020-03-18 17:38:09,665 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1618] - Session: 0x100015c3fae0016 closed
+2020-03-18 17:38:09,665 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@2195dc4
+2020-03-18 17:38:09,666 [myid:] - INFO  [SuperHammerThread-2:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:09,666 [myid:] - INFO  [SuperHammerThread-2:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:09,667 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:09,667 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:09,668 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61968, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:09,669 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae001c, negotiated timeout = 30000
+2020-03-18 17:38:09,670 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@116] - expect:0x100015c3fae001c
+2020-03-18 17:38:09,670 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@119] - found:0x100015c3fae001c org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae001c
+2020-03-18 17:38:09,701 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1618] - Session: 0x100015c3fae001a closed
+2020-03-18 17:38:09,701 [myid:] - INFO  [SuperHammerThread-4-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae001a
+2020-03-18 17:38:09,701 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@4c433af0
+2020-03-18 17:38:09,702 [myid:] - INFO  [SuperHammerThread-4:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:09,702 [myid:] - INFO  [SuperHammerThread-4:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:09,705 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:09,705 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:09,705 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61972, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:09,706 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae001d, negotiated timeout = 30000
+2020-03-18 17:38:09,707 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@116] - expect:0x100015c3fae001d
+2020-03-18 17:38:09,707 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@119] - found:0x100015c3fae001d org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae001d
+2020-03-18 17:38:09,767 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1618] - Session: 0x100015c3fae0015 closed
+2020-03-18 17:38:09,767 [myid:] - INFO  [SuperHammerThread-0-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0015
+2020-03-18 17:38:09,767 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@f30afa4
+2020-03-18 17:38:09,768 [myid:] - INFO  [SuperHammerThread-0:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:09,768 [myid:] - INFO  [SuperHammerThread-0:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:09,770 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:09,771 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:09,771 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61973, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:09,772 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae001e, negotiated timeout = 30000
+2020-03-18 17:38:09,773 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@116] - expect:0x100015c3fae001e
+2020-03-18 17:38:09,773 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@119] - found:0x100015c3fae001e org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae001e
+2020-03-18 17:38:09,868 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1618] - Session: 0x100015c3fae001d closed
+2020-03-18 17:38:09,868 [myid:] - INFO  [SuperHammerThread-4-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae001d
+2020-03-18 17:38:09,868 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@1b349819
+2020-03-18 17:38:09,868 [myid:] - INFO  [SuperHammerThread-4:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:09,869 [myid:] - INFO  [SuperHammerThread-4:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:09,870 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:09,870 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:09,871 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61976, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:09,872 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae001f, negotiated timeout = 30000
+2020-03-18 17:38:09,873 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@116] - expect:0x100015c3fae001f
+2020-03-18 17:38:09,873 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@119] - found:0x100015c3fae001f org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae001f
+2020-03-18 17:38:09,968 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1618] - Session: 0x100015c3fae001c closed
+2020-03-18 17:38:09,968 [myid:] - INFO  [SuperHammerThread-2-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae001c
+2020-03-18 17:38:09,968 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@6d2f2852
+2020-03-18 17:38:09,969 [myid:] - INFO  [SuperHammerThread-2:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:09,969 [myid:] - INFO  [SuperHammerThread-2:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:09,971 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:09,971 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:09,971 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61978, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:09,972 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0020, negotiated timeout = 30000
+2020-03-18 17:38:09,973 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@116] - expect:0x100015c3fae0020
+2020-03-18 17:38:09,974 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@119] - found:0x100015c3fae0020 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0020
+2020-03-18 17:38:10,068 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1618] - Session: 0x100015c3fae001b closed
+2020-03-18 17:38:10,068 [myid:] - INFO  [SuperHammerThread-3-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae001b
+2020-03-18 17:38:10,069 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@712b854f
+2020-03-18 17:38:10,069 [myid:] - INFO  [SuperHammerThread-3:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:10,069 [myid:] - INFO  [SuperHammerThread-3:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:10,071 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:10,071 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:10,072 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61980, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:10,072 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0021, negotiated timeout = 30000
+2020-03-18 17:38:10,074 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@116] - expect:0x100015c3fae0021
+2020-03-18 17:38:10,074 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@119] - found:0x100015c3fae0021 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0021
+2020-03-18 17:38:10,169 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1618] - Session: 0x100015c3fae0019 closed
+2020-03-18 17:38:10,169 [myid:] - INFO  [SuperHammerThread-1-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0019
+2020-03-18 17:38:10,169 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@6bb954e
+2020-03-18 17:38:10,169 [myid:] - INFO  [SuperHammerThread-1:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:10,169 [myid:] - INFO  [SuperHammerThread-1:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:10,171 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:10,171 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:10,171 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61987, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:10,172 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0022, negotiated timeout = 30000
+2020-03-18 17:38:10,173 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@116] - expect:0x100015c3fae0022
+2020-03-18 17:38:10,173 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@119] - found:0x100015c3fae0022 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0022
+2020-03-18 17:38:10,269 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1618] - Session: 0x100015c3fae0021 closed
+2020-03-18 17:38:10,269 [myid:] - INFO  [SuperHammerThread-3-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0021
+2020-03-18 17:38:10,269 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@2216c36a
+2020-03-18 17:38:10,270 [myid:] - INFO  [SuperHammerThread-3:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:10,270 [myid:] - INFO  [SuperHammerThread-3:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:10,272 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:10,272 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:10,272 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61989, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:10,273 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0023, negotiated timeout = 30000
+2020-03-18 17:38:10,274 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@116] - expect:0x100015c3fae0023
+2020-03-18 17:38:10,274 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@119] - found:0x100015c3fae0023 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0023
+2020-03-18 17:38:10,370 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1618] - Session: 0x100015c3fae0020 closed
+2020-03-18 17:38:10,370 [myid:] - INFO  [SuperHammerThread-2-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0020
+2020-03-18 17:38:10,370 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@6dc2a4e9
+2020-03-18 17:38:10,370 [myid:] - INFO  [SuperHammerThread-2:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:10,371 [myid:] - INFO  [SuperHammerThread-2:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:10,372 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:10,372 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:10,373 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61991, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:10,374 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0024, negotiated timeout = 30000
+2020-03-18 17:38:10,375 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@116] - expect:0x100015c3fae0024
+2020-03-18 17:38:10,375 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@119] - found:0x100015c3fae0024 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0024
+2020-03-18 17:38:10,473 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1618] - Session: 0x100015c3fae001f closed
+2020-03-18 17:38:10,473 [myid:] - INFO  [SuperHammerThread-4-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae001f
+2020-03-18 17:38:10,473 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@17e1215e
+2020-03-18 17:38:10,473 [myid:] - INFO  [SuperHammerThread-4:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:10,474 [myid:] - INFO  [SuperHammerThread-4:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:10,475 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:10,475 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:10,476 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61993, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:10,477 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0025, negotiated timeout = 30000
+2020-03-18 17:38:10,478 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@116] - expect:0x100015c3fae0025
+2020-03-18 17:38:10,478 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@119] - found:0x100015c3fae0025 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0025
+2020-03-18 17:38:10,573 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1618] - Session: 0x100015c3fae001e closed
+2020-03-18 17:38:10,573 [myid:] - INFO  [SuperHammerThread-0-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae001e
+2020-03-18 17:38:10,574 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@1b311186
+2020-03-18 17:38:10,574 [myid:] - INFO  [SuperHammerThread-0:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:10,574 [myid:] - INFO  [SuperHammerThread-0:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:10,576 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:10,576 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:10,576 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:61994, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:10,579 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0026, negotiated timeout = 30000
+2020-03-18 17:38:10,580 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@116] - expect:0x100015c3fae0026
+2020-03-18 17:38:10,580 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@119] - found:0x100015c3fae0026 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0026
+2020-03-18 17:38:10,675 [myid:] - INFO  [SuperHammerThread-4-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0025
+2020-03-18 17:38:10,675 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1618] - Session: 0x100015c3fae0025 closed
+2020-03-18 17:38:10,676 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@b7b515
+2020-03-18 17:38:10,676 [myid:] - INFO  [SuperHammerThread-4:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:10,676 [myid:] - INFO  [SuperHammerThread-4:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:10,678 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:10,678 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:10,678 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:62008, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:10,680 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0027, negotiated timeout = 30000
+2020-03-18 17:38:10,681 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@116] - expect:0x100015c3fae0027
+2020-03-18 17:38:10,681 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@119] - found:0x100015c3fae0027 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0027
+2020-03-18 17:38:10,778 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1618] - Session: 0x100015c3fae0024 closed
+2020-03-18 17:38:10,778 [myid:] - INFO  [SuperHammerThread-2-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0024
+2020-03-18 17:38:10,778 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@1214a4e3
+2020-03-18 17:38:10,779 [myid:] - INFO  [SuperHammerThread-2:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:10,779 [myid:] - INFO  [SuperHammerThread-2:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:10,780 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:10,781 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:10,781 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:62009, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:10,782 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0028, negotiated timeout = 30000
+2020-03-18 17:38:10,783 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@116] - expect:0x100015c3fae0028
+2020-03-18 17:38:10,783 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@119] - found:0x100015c3fae0028 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0028
+2020-03-18 17:38:10,878 [myid:] - INFO  [SuperHammerThread-3-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0023
+2020-03-18 17:38:10,878 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1618] - Session: 0x100015c3fae0023 closed
+2020-03-18 17:38:10,879 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@2614b7fb
+2020-03-18 17:38:10,879 [myid:] - INFO  [SuperHammerThread-3:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:10,879 [myid:] - INFO  [SuperHammerThread-3:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:10,881 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:10,881 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:10,882 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:62036, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:10,883 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0029, negotiated timeout = 30000
+2020-03-18 17:38:10,884 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@116] - expect:0x100015c3fae0029
+2020-03-18 17:38:10,884 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@119] - found:0x100015c3fae0029 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0029
+2020-03-18 17:38:10,979 [myid:] - INFO  [SuperHammerThread-1-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0022
+2020-03-18 17:38:10,979 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1618] - Session: 0x100015c3fae0022 closed
+2020-03-18 17:38:10,979 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@7bf6d1c3
+2020-03-18 17:38:10,980 [myid:] - INFO  [SuperHammerThread-1:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:10,980 [myid:] - INFO  [SuperHammerThread-1:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:10,981 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:10,981 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:10,982 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:62050, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:10,983 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae002a, negotiated timeout = 30000
+2020-03-18 17:38:10,983 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@116] - expect:0x100015c3fae002a
+2020-03-18 17:38:10,984 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@119] - found:0x100015c3fae002a org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae002a
+2020-03-18 17:38:11,080 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1618] - Session: 0x100015c3fae0029 closed
+2020-03-18 17:38:11,080 [myid:] - INFO  [SuperHammerThread-3-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0029
+2020-03-18 17:38:11,080 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@75413110
+2020-03-18 17:38:11,080 [myid:] - INFO  [SuperHammerThread-3:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:11,081 [myid:] - INFO  [SuperHammerThread-3:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:11,082 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:11,082 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:11,083 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:62059, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:11,084 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae002b, negotiated timeout = 30000
+2020-03-18 17:38:11,085 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@116] - expect:0x100015c3fae002b
+2020-03-18 17:38:11,085 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@119] - found:0x100015c3fae002b org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae002b
+2020-03-18 17:38:11,180 [myid:] - INFO  [SuperHammerThread-2-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0028
+2020-03-18 17:38:11,180 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1618] - Session: 0x100015c3fae0028 closed
+2020-03-18 17:38:11,181 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@589eb9a5
+2020-03-18 17:38:11,181 [myid:] - INFO  [SuperHammerThread-2:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:11,181 [myid:] - INFO  [SuperHammerThread-2:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:11,182 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:11,182 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:11,183 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:62060, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:11,184 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-2-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae002c, negotiated timeout = 30000
+2020-03-18 17:38:11,185 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@116] - expect:0x100015c3fae002c
+2020-03-18 17:38:11,185 [myid:] - INFO  [SuperHammerThread-2:JMXEnv@119] - found:0x100015c3fae002c org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae002c
+2020-03-18 17:38:11,283 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1618] - Session: 0x100015c3fae0027 closed
+2020-03-18 17:38:11,283 [myid:] - INFO  [SuperHammerThread-4-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0027
+2020-03-18 17:38:11,283 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@262559ad
+2020-03-18 17:38:11,284 [myid:] - INFO  [SuperHammerThread-4:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:11,284 [myid:] - INFO  [SuperHammerThread-4:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:11,286 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:11,286 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:11,286 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:62062, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:11,287 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae002d, negotiated timeout = 30000
+2020-03-18 17:38:11,288 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@116] - expect:0x100015c3fae002d
+2020-03-18 17:38:11,288 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@119] - found:0x100015c3fae002d org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae002d
+2020-03-18 17:38:11,383 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1618] - Session: 0x100015c3fae0026 closed
+2020-03-18 17:38:11,383 [myid:] - INFO  [SuperHammerThread-0-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0026
+2020-03-18 17:38:11,384 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@64833e2d
+2020-03-18 17:38:11,384 [myid:] - INFO  [SuperHammerThread-0:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:11,384 [myid:] - INFO  [SuperHammerThread-0:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:11,386 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:11,386 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:11,386 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:62063, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:11,387 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae002e, negotiated timeout = 30000
+2020-03-18 17:38:11,388 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@116] - expect:0x100015c3fae002e
+2020-03-18 17:38:11,388 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@119] - found:0x100015c3fae002e org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae002e
+2020-03-18 17:38:11,484 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1618] - Session: 0x100015c3fae002d closed
+2020-03-18 17:38:11,484 [myid:] - INFO  [SuperHammerThread-4-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae002d
+2020-03-18 17:38:11,484 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@75766681
+2020-03-18 17:38:11,485 [myid:] - INFO  [SuperHammerThread-4:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:11,485 [myid:] - INFO  [SuperHammerThread-4:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:11,487 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:11,487 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:11,487 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:62070, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:11,488 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-4-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae002f, negotiated timeout = 30000
+2020-03-18 17:38:11,489 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@116] - expect:0x100015c3fae002f
+2020-03-18 17:38:11,489 [myid:] - INFO  [SuperHammerThread-4:JMXEnv@119] - found:0x100015c3fae002f org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae002f
+2020-03-18 17:38:11,588 [myid:] - INFO  [SuperHammerThread-2:ZooKeeper@1618] - Session: 0x100015c3fae002c closed
+2020-03-18 17:38:11,588 [myid:] - INFO  [SuperHammerThread-2-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae002c
+2020-03-18 17:38:11,690 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1618] - Session: 0x100015c3fae002b closed
+2020-03-18 17:38:11,690 [myid:] - INFO  [SuperHammerThread-3-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae002b
+2020-03-18 17:38:11,690 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@75bbb101
+2020-03-18 17:38:11,690 [myid:] - INFO  [SuperHammerThread-3:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:11,690 [myid:] - INFO  [SuperHammerThread-3:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:11,692 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:11,692 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:11,692 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:62072, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:11,693 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-3-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0030, negotiated timeout = 30000
+2020-03-18 17:38:11,694 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@116] - expect:0x100015c3fae0030
+2020-03-18 17:38:11,694 [myid:] - INFO  [SuperHammerThread-3:JMXEnv@119] - found:0x100015c3fae0030 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0030
+2020-03-18 17:38:11,794 [myid:] - INFO  [SuperHammerThread-1-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae002a
+2020-03-18 17:38:11,794 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1618] - Session: 0x100015c3fae002a closed
+2020-03-18 17:38:11,794 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@e2e7df
+2020-03-18 17:38:11,795 [myid:] - INFO  [SuperHammerThread-1:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:11,795 [myid:] - INFO  [SuperHammerThread-1:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:11,796 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:11,796 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:11,797 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:62074, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:11,797 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-1-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0031, negotiated timeout = 30000
+2020-03-18 17:38:11,798 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@116] - expect:0x100015c3fae0031
+2020-03-18 17:38:11,798 [myid:] - INFO  [SuperHammerThread-1:JMXEnv@119] - found:0x100015c3fae0031 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0031
+2020-03-18 17:38:11,897 [myid:] - INFO  [SuperHammerThread-3-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0030
+2020-03-18 17:38:11,897 [myid:] - INFO  [SuperHammerThread-3:ZooKeeper@1618] - Session: 0x100015c3fae0030 closed
+2020-03-18 17:38:11,999 [myid:] - INFO  [SuperHammerThread-4:ZooKeeper@1618] - Session: 0x100015c3fae002f closed
+2020-03-18 17:38:11,999 [myid:] - INFO  [SuperHammerThread-4-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae002f
+2020-03-18 17:38:12,099 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1618] - Session: 0x100015c3fae002e closed
+2020-03-18 17:38:12,099 [myid:] - INFO  [SuperHammerThread-0:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@7f504343
+2020-03-18 17:38:12,099 [myid:] - INFO  [SuperHammerThread-0:ClientCnxnSocket@239] - jute.maxbuffer value is 1048575 Bytes
+2020-03-18 17:38:12,099 [myid:] - INFO  [SuperHammerThread-0-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae002e
+2020-03-18 17:38:12,099 [myid:] - INFO  [SuperHammerThread-0:ClientCnxn@1703] - zookeeper.request.timeout value is 0. feature enabled=false
+2020-03-18 17:38:12,102 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1154] - Opening socket connection to server localhost/127.0.0.1:27381.
+2020-03-18 17:38:12,102 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1156] - SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2020-03-18 17:38:12,102 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@986] - Socket connection established, initiating session, client: /127.0.0.1:62094, server: localhost/127.0.0.1:27381
+2020-03-18 17:38:12,103 [myid:127.0.0.1:27381] - INFO  [SuperHammerThread-0-SendThread(127.0.0.1:27381):ClientCnxn$SendThread@1420] - Session establishment complete on server localhost/127.0.0.1:27381, session id = 0x100015c3fae0032, negotiated timeout = 30000
+2020-03-18 17:38:12,104 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@116] - expect:0x100015c3fae0032
+2020-03-18 17:38:12,104 [myid:] - INFO  [SuperHammerThread-0:JMXEnv@119] - found:0x100015c3fae0032 org.apache.ZooKeeperService:name0=StandaloneServer_port27381,name1=Connections,name2=127.0.0.1,name3=0x100015c3fae0032
+2020-03-18 17:38:12,199 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1618] - Session: 0x100015c3fae0031 closed
+2020-03-18 17:38:12,199 [myid:] - INFO  [SuperHammerThread-1-EventThread:ClientCnxn$EventThread@566] - EventThread shut down for session: 0x100015c3fae0031
+2020-03-18 17:38:12,200 [myid:] - INFO  [SuperHammerThread-1:ZooKeeper@1005] - Initiating client connection, connectString=127.0.0.1:27381 sessionTimeout=30000 watcher=org.apache.zookeeper.test.ClientBase$CountdownWatcher@4bd69da2
